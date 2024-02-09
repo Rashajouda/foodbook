@@ -1,0 +1,2896 @@
+@charset "UTF-8";
+/*
+	*******************
+	Template name : foodbooklite
+	Version		  : 1.0
+	Author		  : ThemeLooks
+	Author url    : http://themelooks.com
+
+	NOTE:
+	-----
+	Please DO NOT EDIT THIS CSS, you may need to use "custom.css" file for writing your custom css.
+	We may release future updates so it will overwrite this file. it's better and safer to use "custom.css".
+
+    ******** CSS INDEX ********
+    
+    ********************/
+* {
+    box-sizing: border-box;
+}
+.fb_col_12, .fb_col_sm_6, .fb_col_md_6, .fb_col_md_2,.fb_col_md_4, .fb_col_md_3,.fb_col_md_5, .fb_col_lg_9, .fb_col_lg_8, .fb_col_lg_6, .fb_col_lg_4, .fb_col_lg_3, .fb_col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.fb_list_unstyled, .fb_pagination_list, .fb_steps_list, .fb_category_list, .fb-product-reviews ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.fb_list_unstyled li, .fb_pagination_list li, .fb_steps_list li, .fb_category_list li, .fb-product-reviews ul li {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.fb_quantity .fb_plus,
+.fb_quantity .fb_minus, .fb_remove_btn, .fb_input_style, .fb-product-review-form .comment-form-comment textarea, .foodbooklite-checkout .checkout_coupon .input-text, .fb_btn_fill:not(.toggle), .step-reviews .review-back, .fb-product-review-form .form-submit input[type="submit"], .fb_pagination_list .fb_pagination_list_item, .fb_icon_pagination li, .fb_modal_content .status-button-area span, .ui-datepicker-prev,
+.ui-datepicker-next, .ui-datepicker-calendar a, .fb_order_button, .fb_order_button svg,
+.fb_order_button img, .fb_single_product_item, .fb_single_product_item .fb_product_top .fb_overlay_content {
+  -webkit-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.fb_quantity .fb_plus,
+.fb_quantity .fb_minus, .fb_remove_btn {
+  width: 14px;
+  min-width: 14px;
+  height: 14px;
+  background-color: #d1d1d1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fb_quantity .fb_plus:hover,
+.fb_quantity .fb_minus:hover, .fb_remove_btn:hover {
+  background-color: #e58701;
+}
+
+.fb_input_style, .fb-product-review-form .comment-form-comment textarea, .foodbooklite-checkout .checkout_coupon .input-text {
+  width: 100%;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 43px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #111111;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.fb_input_style::-webkit-input-placeholder, .fb-product-review-form .comment-form-comment textarea::-webkit-input-placeholder, .foodbooklite-checkout .checkout_coupon .input-text::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fb_input_style::-moz-placeholder, .fb-product-review-form .comment-form-comment textarea::-moz-placeholder, .foodbooklite-checkout .checkout_coupon .input-text::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fb_input_style:-ms-input-placeholder, .fb-product-review-form .comment-form-comment textarea:-ms-input-placeholder, .foodbooklite-checkout .checkout_coupon .input-text:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fb_input_style::-ms-input-placeholder, .fb-product-review-form .comment-form-comment textarea::-ms-input-placeholder, .foodbooklite-checkout .checkout_coupon .input-text::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fb_input_style::placeholder, .fb-product-review-form .comment-form-comment textarea::placeholder, .foodbooklite-checkout .checkout_coupon .input-text::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fb_input_style:focus, .fb-product-review-form .comment-form-comment textarea:focus, .foodbooklite-checkout .checkout_coupon .input-text:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+textarea.fb_input_style, .fb-product-review-form .comment-form-comment textarea {
+  height: 140px;
+  padding-top: 10px;
+  resize: none;
+}
+
+.fb_cart_table {
+  border: none;
+  width: 100%;
+}
+
+.fb_cart_table th,
+.fb_cart_table td {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  padding: 10px;
+}
+
+.fb_cart_table th:last-child,
+.fb_cart_table td:last-child {
+  text-align: right;
+}
+
+.fb_cart_table th {
+  color: #111111;
+}
+
+.fb_cart_table > tbody > tr:nth-of-type(odd) {
+  background-color: #fbfbfb;
+}
+
+.fb_btn_fill:not(.toggle), .step-reviews .review-back, .fb-product-review-form .form-submit input[type="submit"] {
+  border: none;
+  padding: 14px 30px;
+  background-color: #000;
+  color: #fecc35;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 14px;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+
+.fb_btn_fill:not(.toggle) img, .step-reviews .review-back img, .fb-product-review-form .form-submit input[type="submit"] img,
+.fb_btn_fill:not(.toggle) svg,
+.step-reviews .review-back svg,
+.fb-product-review-form .form-submit input[type="submit"] svg {
+  margin-right: 10px;
+}
+
+.fb_btn_fill:hover:not(.toggle), .step-reviews .review-back:hover, .fb-product-review-form .form-submit input:hover[type="submit"], .fb_btn_fill:focus:not(.toggle), .step-reviews .review-back:focus, .fb-product-review-form .form-submit input:focus[type="submit"], .fb_btn_fill:active:not(.toggle), .step-reviews .review-back:active, .fb-product-review-form .form-submit input:active[type="submit"] {
+  color: #fff;
+  background-color: #e58701;
+  outline: none;
+  text-decoration: none;
+}
+
+.fb_container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .fb_container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fb_container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fb_container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .fb_container {
+    max-width: 1140px;
+  }
+}
+
+.fb_row {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.fb_col_12 {
+  -ms-flex: 0 0 100%;
+  -webkit-box-flex: 0;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  .fb_col_sm_6 {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fb_col_md_6 {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .fb_col_md_5 {
+    -ms-flex: 0 0 41.6667%;
+    -webkit-box-flex: 0;
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fb_col_md_4 {
+    -ms-flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .fb_col_md_3 {
+    -ms-flex: 0 0 25%;
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fb_col_md_2 {
+    -ms-flex: 0 0 16.66667%;
+    -webkit-box-flex: 0;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fb_col_lg_9 {
+    -ms-flex: 0 0 75%;
+    -webkit-box-flex: 0;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fb_col_lg_8 {
+    -ms-flex: 0 0 66.666667%;
+    -webkit-box-flex: 0;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fb_col_lg_6 {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fb_col_lg_4 {
+    -ms-flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fb_col_lg_3 {
+    -ms-flex: 0 0 25%;
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.fb_col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.fb_align_items_center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.fb_align_items_end {
+  -webkit-box-align: end !important;
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
+}
+
+.fb_justify_content_center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.fb_justify_content_between {
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+.fb_text_right {
+  text-align: right !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .fb_text_md_right {
+    text-align: right !important;
+  }
+}
+
+.fb__wrapper {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: inherit;
+  line-height: calc(24 / 14);
+  color: #777777;
+  padding: 100px 0;
+}
+
+.fb__wrapper *,
+.fb__wrapper *::before,
+.fb__wrapper *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.fb__wrapper h1,
+.fb__wrapper h2,
+.fb__wrapper h3,
+.fb__wrapper h4,
+.fb__wrapper h5,
+.fb__wrapper h6 {
+  margin: 0;
+  color: #111111;
+  font-weight: 700;
+}
+
+.fb__wrapper img {
+  max-width: 100%;
+}
+
+.fb__wrapper a {
+  text-decoration: none;
+}
+
+/* Section Padding */
+.fb-pt-80 {
+  padding-top: 80px;
+}
+
+.pb-pb-80 {
+  padding-bottom: 80px;
+}
+
+/* Custom CheckBox */
+.fb_custom_checkbox {
+  display: inline-block;
+  position: relative;
+}
+
+.fb_custom_checkbox label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.fb_custom_checkbox label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  left: 0;
+  top: 0;
+}
+
+.fb_custom_checkbox label .fb_custom_checkmark {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 15px;
+  min-width: 15px;
+  background-color: #fff;
+  border: 1px solid #b5b5b5;
+  border-radius: 2px;
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.fb_custom_checkbox label .fb_custom_checkmark:after {
+  content: "";
+  height: 5px;
+  width: 5px;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #f79101;
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.fb_custom_checkbox label .fb_input_text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111111;
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.fb_custom_checkbox label input:checked ~ .fb_custom_checkmark {
+  border-color: #f79101;
+  background-color: #fff4e5;
+}
+
+.fb_custom_checkbox label input:checked ~ .fb_custom_checkmark:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fb_custom_checkbox label input:checked ~ .fb_input_text,
+.fb_custom_checkbox label input:checked ~ .fb_label_title .fb_input_text {
+  color: #f79101 !important;
+}
+
+/* alignment */
+.fb_text_center {
+  text-align: center !important;
+}
+
+/* List */
+.fb_d_flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.fb_d_inline_flex {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+
+.fb-d-none {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .fb_d_md_flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .fb_d_sm_flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+/* w 100 */
+.fb_w_100 {
+  width: 100%;
+  display: block;
+}
+
+/* Margins */
+.fb_mb_0 {
+  margin-bottom: 0px !important;
+}
+
+.fb_mb_20 {
+  margin-bottom: 30px !important;
+}
+
+.fb_mb_30 {
+  margin-bottom: 30px !important;
+}
+
+.fb_mb_10 {
+  margin-bottom: 10px !important;
+}
+
+.fb_mb_15 {
+  margin-bottom: 15px !important;
+}
+
+.fb_mt_50 {
+  margin-top: 50px !important;
+}
+
+.fb_mb_50 {
+  margin-bottom: 50px !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .fb_mt_lg_0 {
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fb_mb_md_0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+.fz-30 {
+  font-size: 30px !important;
+}
+
+.assigned-alert {
+  width: 100%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  margin-top: 10px;
+  color: green;
+}
+
+/* Pagination */
+.fb_pagination_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.fb_pagination_list .fb_pagination_list_item {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #f79101;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #f79101;
+  cursor: pointer;
+}
+
+.fb_pagination_list .fb_pagination_list_item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.fb_pagination_list .fb_pagination_list_item:hover, .fb_pagination_list .fb_pagination_list_item.active {
+  background-color: #e58701;
+  color: #fff;
+}
+
+.fb_icon_pagination {
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.fb_icon_pagination li {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.fb_icon_pagination li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.fb_icon_pagination li:hover {
+  opacity: 1;
+}
+
+/* Quantity */
+.fb_quantity {
+  max-width: 70px;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.fb_quantity .fb_quantity_input {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 40px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  color: #111111;
+  font-weight: 700;
+  padding: 0;
+}
+
+.fb_quantity .fb_quantity_input:focus {
+  outline: none;
+}
+
+.fb_label_title {
+  font-size: 16px;
+  color: #111111;
+  font-weight: 700;
+}
+
+.fb_sidebar .fb_filter_wrapper:not(:last-child) {
+  margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 991px) {
+  .fb_sidebar {
+    margin-bottom: 70px;
+  }
+}
+
+/* Steps */
+.fb_steps_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (max-width: 575px) {
+  .fb_steps_list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+
+.fb_steps_list .fb_steps_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15px;
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  color: #111111;
+}
+
+@media only screen and (max-width: 991px) {
+  .fb_steps_list .fb_steps_item {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .fb_steps_list .fb_steps_item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    word-break: break-word;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .fb_steps_list .fb_steps_item {
+    font-size: 10px;
+    padding: 3px;
+  }
+}
+
+.fb_steps_list .fb_steps_item:not(.active) {
+  color: #b5b5b5;
+}
+
+.fb_steps_list .fb_steps_item:not(.active) svg path {
+  fill: #b5b5b5;
+  stroke: #b5b5b5;
+}
+
+.fb_steps_list .fb_steps_item:not(.active) svg g {
+  stroke: #b5b5b5;
+}
+
+@media only screen and (max-width: 767px) {
+  .fb_steps_list .fb_steps_item:nth-of-type(even) {
+    display: none;
+  }
+}
+
+/* Steps Content */
+.fb_steps_content {
+  padding: 45px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .fb_steps_content {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .fb_steps_content {
+    padding: 15px;
+  }
+}
+
+/* Product Details */
+.fb_product_details_img img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.fb_product_details_content h3 {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0 0 10px;
+}
+
+.fb_product_details_content .fb_product_summary {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.fb_product_details_content .fb_extra_options {
+  margin-bottom: 25px;
+}
+
+.fb_product_details_content .fb_extra_options ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.fb_product_details_content .fb_extra_options ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.fb_product_details_content .fb_extra_options .fb-variable-price {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.fb_total_price {
+  margin: 20px 0;
+}
+
+/* Share Title */
+.fb_share_btn_title {
+  display: block;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin: 20px 0;
+}
+
+.fb_share_btn_title:after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  content: "";
+  background-color: #cdcdd2;
+  width: 100%;
+  height: 1px;
+  z-index: -1;
+}
+
+.fb_share_btn_title span {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #6f6f7f;
+}
+
+.fb_share_btn_group .fb_btn_fill {
+  padding: 18px 0;
+}
+
+.fb_share_btn_group .fb_btn_fill:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Order Info */
+.fb_order_info {
+  margin-bottom: 30px;
+}
+
+.fb_order_info p {
+  margin: 0;
+  color: #666;
+}
+
+.fb_order_info p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.fb_order_info .fb_order_btn_group {
+  margin-bottom: 10px;
+}
+
+.fbPopupModal-opened {
+  overflow: hidden;
+}
+
+.fbPopupModal-opened .fb_popup_modal.open {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.fb_popup_modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.fb_modal_wrap {
+  position: relative;
+  width: auto;
+  margin: 0.5rem;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: calc(100% - (0.5rem * 2));
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1199px) {
+  .fb_modal_wrap {
+    width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .fb_modal_wrap {
+    width: 1200px;
+  }
+}
+
+.fb_modal_wrap .fb_modal_inner {
+  background-color: #fff;
+  position: relative;
+  -webkit-box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  min-height: 250px;
+}
+
+@media only screen and (min-width: 576px) {
+  .fb_modal_wrap {
+    margin: 50px auto;
+    min-height: calc(100% - (50px * 2));
+  }
+}
+
+.fb_modal_wrap:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fb_modal_wrap .fb_modal {
+  width: 100%;
+  padding: 20px;
+}
+
+.fb_modal_wrap .fb_close_modal {
+  width: 35px;
+  height: 35px;
+  background: #ff0000;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  cursor: pointer;
+}
+
+.fb_modal_content .fb_modal_title {
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.05);
+}
+
+.fb_modal_content .fb_modal_title h3 {
+  font-size: 24px;
+}
+
+.fb_modal_content .status-button-area {
+  margin: 20px 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.fb_modal_content .status-button-area span {
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0px 8px 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #111111;
+  white-space: wrap;
+}
+
+.fb_modal_content .status-button-area span:hover {
+  background-color: #f79101;
+}
+
+.fb_modal_content .status-button-area span.order-cancel {
+  background: #ff0000;
+}
+
+.fb_modal_content .status-button-area .status-active {
+  position: relative;
+  background-color: #f79101;
+}
+
+.fb_modal_content .status-button-area .status-active:before {
+  content: "✔";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #ff0000;
+  padding: 2px;
+  border-radius: 14px;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+}
+
+.fb_modal_content .fb_modal_content_inner {
+  padding: 50px;
+}
+
+.fb_modal_content .fb_modal_content_inner h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.fb_modal_content .fb_modal_content_inner > h4 {
+  text-align: center;
+}
+
+.fb_modal_content .order-transfer,
+.fb_modal_content .delivery-boy {
+  margin-bottom: 30px;
+}
+
+.fb_modal_content .fb_order_table table {
+  margin: 0;
+  font-size: 14px;
+}
+
+.fb_modal_content .fb_order_table table th,
+.fb_modal_content .fb_order_table table td {
+  padding: 10px 18px;
+}
+
+.fb_modal_content .fb_order_table table td {
+  color: #111111;
+  font-weight: 500;
+}
+
+.fb_modal_content .fb_order_table table ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.fb_modal_content .fb_order_table table ul li {
+  margin: 0;
+}
+
+.fb_modal_content .fb_order_table table ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.fb_modal_content .fb_order_table table ul li .meta-title {
+  color: #777777;
+}
+
+.fb_modal_content .fb_order_table table ul li::before {
+  content: "✔  ";
+}
+
+.fb_modal_content .fb_order_table table > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.fb_modal_content .kitchen-change-tracking {
+  margin-top: 40px;
+}
+
+.fb--modal-inner {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+/* Date Picker */
+.ui-datepicker {
+  background: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.ui-datepicker-next {
+  float: right;
+}
+
+.ui-datepicker-title {
+  width: 100%;
+  display: block;
+  margin-top: 15px;
+  background: #dadada;
+  text-align: center;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover {
+  opacity: 1;
+}
+
+.ui-datepicker-calendar {
+  font-size: 14px;
+  text-align: center;
+}
+
+.ui-datepicker-calendar td {
+  padding: 0;
+}
+
+.ui-datepicker-calendar a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.ui-datepicker-calendar a.ui-state-highlight {
+  background-color: #d2c0c0;
+}
+
+.ui-datepicker-calendar a:hover, .ui-datepicker-calendar a.ui-state-active {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+/* Search */
+.fb_search {
+  padding: 45px;
+  -webkit-box-shadow: 10px 10px 90px rgba(0, 0, 0, 0.07);
+  box-shadow: 10px 10px 90px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 575px) {
+  .fb_search {
+    padding: 30px;
+  }
+}
+
+.fb_search .fb_search_input_group {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+  border-radius: 5px 5px 0 0;
+}
+
+.fb_search .fb_search_input_group label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.fb_search .fb_search_input_group .fb_input_style {
+  position: relative;
+  -ms-flex: 1 1 0%;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  min-width: 0;
+  border: none;
+  background-color: transparent;
+  height: 50px;
+  font-size: 15px;
+}
+
+.fb_search .fb_search_input_group .fb_input_style:focus {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Section Title */
+.fb__wrapper .fb_section_title {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 40px;
+}
+
+.fb__wrapper .fb_section_title h3 {
+  font-size: 24px;
+  color: #111111;
+  margin: 0 0 15px;
+  line-height: 1.5;
+}
+
+/* fb Category Menu */
+.fb_category_list .fb_category_item {
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.fb_category_list .fb_category_item:nth-of-type(odd) {
+  background-color: rgba(247, 145, 1, 0.07);
+  border-radius: 5px;
+}
+
+.fb_category_list .fb_category_item .fb_category_quantity {
+  padding-left: 15px;
+  position: relative;
+  color: #f79101;
+}
+
+.fb_category_list .fb_category_item .fb_category_quantity:before {
+  content: "";
+  height: 20px;
+  width: 1px;
+  background-color: rgba(247, 145, 1, 0.3);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Buttons */
+.fb_order_button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 13px 32px;
+  background-color: #000000;
+  text-decoration: none;
+  border-radius: 50px;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.fb_order_button svg,
+.fb_order_button img {
+  margin-right: 10px;
+}
+
+.fb_order_button .order-hover-icon {
+  position: absolute;
+  left: 32px;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fb_order_button:hover {
+  background-color: #e58701;
+  color: #fff;
+}
+
+.fb_order_button:hover svg path {
+  fill: #fff;
+  stroke: #fff;
+}
+
+.fb_order_button:hover img:not(.order-hover-icon) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fb_order_button:hover .order-hover-icon {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fb_btn_fill:not(.toggle).fill_sm {
+  padding: 7px 15px;
+  font-size: 12px;
+}
+
+.notifi-number-count {
+  text-align: center;
+  margin: 30px 0 40px;
+}
+
+.fb-noti-inner {
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #111111;
+  border-radius: 0;
+  -webkit-transition: background-color 0.25s ease;
+  -o-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.fb-noti-inner:not(:last-child) {
+  margin-right: 15px;
+}
+
+.fb-noti-inner:hover, .fb-noti-inner.active {
+  background-color: #f79101;
+}
+
+.fb-noti-inner span {
+  background-color: #ff0000;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 300;
+  -webkit-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  font-size: 12px;
+}
+
+.fb_order_btn_group > a + a {
+  margin-left: 20px;
+}
+
+/* Cart Button */
+.fb_cart_count_btn {
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  position: fixed;
+  bottom: 100px;
+  right: 60px;
+  cursor: pointer;
+  z-index: 999999;
+}
+
+.fb_cart_count {
+  position: absolute;
+  right: -6px;
+  top: -6px;
+  width: 28px;
+  height: 28px;
+  background-color: #fecc35;
+  font-size: 14px;
+  color: #000000;
+}
+
+.fb_cart_count_btn,
+.fb_cart_count {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+/*** Quick Cart button animation ***/
+.fb-shake-animation {
+  -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+@-webkit-keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/* Star Rating */
+.fb_star_rating {
+  font-size: 15px;
+  line-height: 1;
+  color: #f79101;
+}
+
+/* Stars */
+.stars.fb-product-star {
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.stars.fb-product-star a {
+  position: relative;
+  height: 14px;
+  width: 14px;
+  text-indent: -999em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.stars.fb-product-star a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  content: "\f005";
+  font-weight: normal;
+  text-indent: 0;
+  color: #ffc600;
+}
+
+.stars.fb-product-star a:hover ~ a:before {
+  content: "\f005";
+  font-weight: normal;
+}
+
+.stars.fb-product-star:hover a:before {
+  content: "\f005";
+  font-weight: 900;
+}
+
+.stars.fb-product-star.selected a.active:before {
+  content: "\f005";
+  font-weight: 900;
+}
+
+.stars.fb-product-star.selected a.active ~ a:before {
+  content: "\f005";
+  font-weight: normal;
+}
+
+.stars.fb-product-star.selected a:not(.active)::before {
+  content: "\f005";
+  font-weight: 900;
+}
+
+/* Input List */
+.fb_form_input_list .input_list_title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.fb_form_input_list ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.fb_form_input_list:not(:last-child) {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Inputs */
+.fb_input_group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.fb_input_group.fb_d_flex {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.fb_input_group.fb_d_flex .fb_input_style {
+  margin-right: 10px;
+  position: relative;
+  -ms-flex: 1 1 0%;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.fb_input_group.style_two .fb_input_label {
+  top: 0;
+}
+
+.fb_input_group.style_two .fb_input_style {
+  padding: 20px 15px;
+  height: auto;
+}
+
+.fb_input_group .fb_input_label {
+  background-color: #fff;
+  font-size: 13px;
+  text-transform: capitalize;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.fb_input_group .fb_input_label span {
+  color: #ff0000;
+}
+
+.fb_input_group .fb_input_style {
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #111111;
+}
+
+.fb_input_group .fb_input_style:focus ~ .fb_input_label, .fb_input_group .fb_input_style:valid ~ .fb_input_label {
+  top: 0;
+}
+
+.fb_input_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fb_input_wrapper input[type="text"].fb_input_style,
+.fb_input_wrapper .fb_input_style {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  min-width: 0;
+  height: 52px;
+  border-radius: 5px 0 0 5px;
+}
+
+.fb_input_wrapper .fb_btn_fill:not(.toggle) {
+  height: 52px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -1px;
+}
+
+/* Data Table */
+.fb__wrapper .dataTables_length label,
+.fb__wrapper .dataTables_filter label {
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+.fb__wrapper .dataTables_filter label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.fb__wrapper .dataTables_filter input {
+  margin-left: 15px;
+  padding: 5px 14px 6px;
+  border-radius: 4px;
+}
+
+.fb__wrapper .dataTables_filter input:focus {
+  offset: none;
+  outline: none;
+  border-color: #66afe9;
+}
+
+.fb__wrapper .dataTables_length select {
+  margin: 0 11px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.fb__wrapper .dataTables_length select:focus {
+  border-color: #66afe9;
+}
+
+.fb__wrapper table.dataTable {
+  border-collapse: collapse;
+}
+
+.fb__wrapper table.dataTable thead th,
+.fb__wrapper table.dataTable thead td,
+.fb__wrapper table.dataTable tfoot th,
+.fb__wrapper table.dataTable tfoot td {
+  color: #111111;
+  border-bottom: 1px solid #ccc;
+}
+
+.fb__wrapper table.dataTable > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.fb__wrapper table.dataTable td,
+.fb__wrapper table.dataTable th {
+  padding: 10px 18px;
+  font-size: 14px;
+}
+
+.fb__wrapper .dataTables_wrapper {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .fb__wrapper .dataTables_wrapper {
+    overflow-x: auto;
+  }
+}
+
+.fb__wrapper .dataTables_wrapper .dataTables_paginate .paginate_button {
+  border: 1px solid #ddd !important;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.fb__wrapper .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+  background-color: rgba(237, 217, 217, 0.16) !important;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.fb__wrapper .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.fb__wrapper .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: transparent;
+}
+
+.fb__wrapper .dataTables_wrapper .dataTables_paginate > span .paginate_button {
+  min-width: 34px;
+}
+
+.fb__wrapper .dataTables_wrapper .dataTables_paginate .paginate_button:not(.disabled):hover,
+.fb__wrapper .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background-color: #f79101 !important;
+  color: #fff !important;
+  border-color: #f79101 !important;
+}
+
+.fb__wrapper .dataTables_wrapper .dataTables_info {
+  padding-top: 40px;
+}
+
+.fb__wrapper .dataTables_wrapper .dataTables_paginate {
+  padding-top: 30px;
+}
+
+.fb__wrapper td.dataTables_empty {
+  background-color: rgba(237, 217, 217, 0.16);
+}
+
+/* Card */
+.fb_card {
+  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  .fb_card {
+    padding: 15px;
+  }
+}
+
+.fb_card:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.fb_card .fb_card_title {
+  margin-bottom: 20px;
+  color: #111111;
+}
+
+.fb_card .fb_card_title h3 {
+  font-size: 24px !important;
+  line-height: 1;
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .fb_card .fb_card_title h3 {
+    margin-bottom: 10px;
+  }
+}
+
+.fb_card .fb_card_title small {
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.3;
+}
+
+.fb_card .fb_card_title h5 {
+  margin: 0;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 575px) {
+  .statistics-area .fb_card {
+    padding: 30px;
+  }
+}
+
+/**** Loader ****/
+.fb-loading {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #000;
+  left: 15%;
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-animation: circle 0.5s alternate infinite ease;
+  animation: circle 0.5s alternate infinite ease;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    top: 60px;
+    height: 5px;
+    border-radius: 50px 50px 25px 25px;
+    -webkit-transform: scaleX(1.7);
+    transform: scaleX(1.7);
+  }
+  40% {
+    height: 20px;
+    border-radius: 50%;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+@keyframes circle {
+  0% {
+    top: 60px;
+    height: 5px;
+    border-radius: 50px 50px 25px 25px;
+    -webkit-transform: scaleX(1.7);
+    transform: scaleX(1.7);
+  }
+  40% {
+    height: 20px;
+    border-radius: 50%;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+.circle:nth-child(2) {
+  left: 45%;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.circle:nth-child(3) {
+  left: auto;
+  right: 15%;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.shadow {
+  width: 20px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 62px;
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+  z-index: -1;
+  left: 15%;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  -webkit-animation: shadow 0.5s alternate infinite ease;
+  animation: shadow 0.5s alternate infinite ease;
+}
+
+@-webkit-keyframes shadow {
+  0% {
+    -webkit-transform: scaleX(1.5);
+    transform: scaleX(1.5);
+  }
+  40% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    opacity: 0.7;
+  }
+  100% {
+    -webkit-transform: scaleX(0.2);
+    transform: scaleX(0.2);
+    opacity: 0.4;
+  }
+}
+
+@keyframes shadow {
+  0% {
+    -webkit-transform: scaleX(1.5);
+    transform: scaleX(1.5);
+  }
+  40% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    opacity: 0.7;
+  }
+  100% {
+    -webkit-transform: scaleX(0.2);
+    transform: scaleX(0.2);
+    opacity: 0.4;
+  }
+}
+
+.shadow:nth-child(4) {
+  left: 45%;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.shadow:nth-child(5) {
+  left: auto;
+  right: 15%;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.fb-loading span {
+  position: absolute;
+  top: 75px;
+  font-size: 20px;
+  letter-spacing: 12px;
+  color: #000;
+  left: 15%;
+}
+
+/* Order Info */
+.fb_order_info {
+  margin-bottom: 30px;
+}
+
+.fb_order_info p {
+  margin: 0;
+  color: #666;
+}
+
+.fb_order_info p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.fb-alert {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.fb-alert-danger {
+  color: #fff;
+  background-color: #721c24;
+  border-color: #721c24;
+}
+
+.fb-after-cart-button .fb_order_btn_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.fb-after-cart-button .fb_btn_fill {
+  margin-right: 12px;
+}
+
+.fb-alert-inner {
+  padding: 12px;
+  position: fixed;
+  top: 53px;
+  right: 39px;
+  z-index: 10000000;
+}
+
+.fb-alert-inner.alert-success {
+  background-color: #155724;
+  color: #fff;
+}
+
+.fb-alert-inner.alert-warning {
+  background: #856404;
+  color: #fff;
+}
+
+.fb-alert-inner p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.fb-alert-danger {
+  background: #e63d3d;
+  color: #fff;
+}
+
+.fb-alert-success {
+  background: #008000;
+  color: #fff;
+}
+
+.fb-alert-warning {
+  background: #bf1f1f;
+  color: #fff;
+}
+
+/* Single Product */
+.fb_single_product_item {
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.fb_single_product_item .fb_product_top {
+  position: relative;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.fb_single_product_item .fb_product_top .fb_overlay_content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fb_single_product_item .fb_product_top .fb_overlay_content .fb_order_button {
+  -webkit-transform: translate3d(0, 5px, 0);
+  transform: translate3d(0, 5px, 0);
+}
+
+.fb_single_product_item .fb_product_top .fb_badge {
+  position: absolute;
+  left: 90px;
+  top: 20px;
+  padding: 18px;
+  background-color: #f79101;
+  width: 100%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.fb_single_product_item .fb_product_top .fb_product_thumb img {
+  border-radius: 10px;
+}
+
+.fb_single_product_item .fb_product_content {
+  padding: 25px;
+  text-align: center;
+}
+
+.fb_single_product_item .fb_product_content .fb_product_title {
+  font-size: 18px;
+  line-height: 34px;
+  margin: -9px 0 7px;
+  cursor: pointer;
+}
+
+.fb_single_product_item .fb_product_content .fb_product_price {
+  margin: 10px 0 0;
+}
+
+.fb_single_product_item:hover {
+  -webkit-box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.07);
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.07);
+}
+
+.fb_single_product_item:hover .fb_overlay_content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fb_single_product_item:hover .fb_overlay_content .fb_order_button {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.fb_product_price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #777777;
+  margin: 15px 0 0;
+  line-height: 1;
+}
+
+.fb_product_price .fb_old_price {
+  position: relative;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.fb_product_price .fb_old_price:after {
+  position: absolute;
+  left: -3px;
+  top: 50%;
+  width: calc(100% + 6px);
+  height: 1px;
+  background: #000000;
+  content: "";
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+}
+
+.fb_product_details_content > h6 {
+  margin: 15px 0;
+}
+
+/* Proudct Review */
+.woocommerce-review-link {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  -webkit-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.woocommerce-review-link:hover {
+  color: #e58701;
+}
+
+.step-reviews .review-back {
+  margin-bottom: 30px;
+}
+
+.fb-product-reviews ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.fb-product-reviews ul li {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 576px) {
+  .fb-product-reviews ul li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fb-product-reviews ul li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+.fb-product-reviews .comment_container,
+.fb-product-review-form .comment-form {
+  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.fb-product-reviews .comment-text {
+  margin-top: 10px;
+  line-height: 1;
+}
+
+/* Star Rating */
+.fb-product-reviews .star-rating {
+  height: 12px;
+  line-height: 12px;
+  overflow: hidden;
+  position: relative;
+  width: 80px;
+  font-size: 12px;
+  color: #ffe539;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.fb-product-reviews .star-rating:before {
+  content: "\f005\f005\f005\f005\f005";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: normal;
+  left: 0;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 0;
+}
+
+.fb-product-reviews .star-rating span {
+  width: 80%;
+  float: left;
+  left: 0;
+  overflow: hidden;
+  padding-top: 12px;
+  position: absolute;
+  top: 0;
+  color: #ffe539;
+}
+
+.fb-product-reviews .star-rating span:before {
+  content: "\f005\f005\f005\f005\f005";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  left: 0;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 0;
+}
+
+.fb-product-reviews .comment_container .meta {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.fb-product-reviews .comment_container .meta strong {
+  font-size: 18px;
+}
+
+.fb-product-reviews .comment_container .description {
+  font-size: 14px;
+}
+
+.fb-product-reviews .comment_container .description p:last-child {
+  margin-bottom: 0;
+}
+
+.fb-product-review-form > p:last-child {
+  margin: 0;
+  font-size: 14px;
+  color: #ff0000;
+}
+
+.fb-product-review-form .comment-form-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.fb-product-review-form .comment-form-rating label,
+.fb-product-review-form .comment-form-comment label {
+  margin-bottom: 0;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.fb-product-review-form .comment-form-comment label {
+  margin-bottom: 10px;
+}
+
+.fb-review-submit-message p {
+  width: 100%;
+}
+
+.fb-address-wrapper .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.fb-address-wrapper .row .col-md-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .fb-address-wrapper .row .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.fb-address-wrapper .fb-billing-address,
+.fb-address-wrapper .fb-shipping-address {
+  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.fb-address-wrapper .fb-billing-address h4,
+.fb-address-wrapper .fb-shipping-address h4 {
+  margin-bottom: 20px;
+}
+
+.fb-address-wrapper .fb-billing-address p:last-child,
+.fb-address-wrapper .fb-shipping-address p:last-child {
+  margin-bottom: 0;
+}
+
+/* Cart */
+.fb_cart_table .fb_cart_item_image {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.fb_cart_table th,
+.fb_cart_table td {
+  padding: 15px 10px;
+}
+
+.fb_cart_table th:not(:nth-child(2)), .fb_cart_table th:last-child,
+.fb_cart_table td:not(:nth-child(2)),
+.fb_cart_table td:last-child {
+  text-align: center;
+}
+
+.foodbooklite-checkout .checkout_coupon {
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.foodbooklite-checkout .checkout_coupon > p:not(.form-row),
+.foodbooklite-checkout .checkout_coupon .clear {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+
+.foodbooklite-checkout .checkout_coupon .form-row.form-row-first {
+  width: 1%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  float: none;
+}
+
+.foodbooklite-checkout .checkout_coupon .form-row.form-row-last {
+  float: none;
+  display: inline-block;
+  width: auto;
+}
+
+.foodbooklite-checkout .checkout_coupon .input-text {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.foodbooklite-checkout .checkout_coupon button {
+  font-size: 14px;
+  padding: 14px 30px;
+}
+
+.foodbooklite-checkout .woocommerce-form-coupon-toggle {
+  display: none;
+}
+
+/* Login/Signin */
+.fb_multiform > h2 {
+  margin: 0 0 30px;
+}
+
+.fb_multiform .fb_form_selector_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.fb_multiform .fb_form_selector_list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.fb_multiform .fb_form_selector_list .fb_custom_checkbox input ~ * {
+  opacity: 0.3;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.fb_multiform .fb_form_selector_list .fb_custom_checkbox input:checked ~ * {
+  opacity: 1;
+}
+
+.fb_multiform .fb_single_form {
+  display: none;
+}
+
+.fb_multiform .fb_single_form.show {
+  display: block;
+}
+
+/* Thank You */
+.foodbooklite-checkout .fb_thankyou_content {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.foodbooklite-checkout .fb_thankyou_content img {
+  display: inline;
+}
+
+.foodbooklite-checkout .fb_thankyou_content h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+  color: #111111;
+  line-height: calc(24 / 14);
+}
+
+@media only screen and (max-width: 575px) {
+  .foodbooklite-checkout .fb_thankyou_content h2 {
+    font-size: 30px;
+  }
+}
+
+.foodbooklite-checkout .fb_thankyou_content p {
+  margin: 0 auto;
+  font-size: 16px;
+  max-width: 730px;
+  font-weight: 600;
+  color: #777;
+  line-height: calc(24 / 14);
+}
+
+.foodbooklite-checkout .woocommerce-thankyou-order-details {
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.foodbooklite-checkout .woocommerce-thankyou-order-details li {
+  word-break: break-word;
+}
+
+.foodbooklite-checkout .woocommerce-thankyou-order-details li strong {
+  color: #111111;
+}
+
+.foodbooklite-checkout .woocommerce-thankyou-order-details li:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.foodbooklite-checkout .select2-container .select2-selection--single,
+.foodbooklite-checkout .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 43px;
+}
+
+.foodbooklite-checkout .select2-container .select2-selection--single {
+  border: 1px solid #ddd;
+}
+
+.foodbooklite-checkout .select2-container .select2-selection--single .select2-selection__rendered {
+  line-height: 43px;
+}
+
+.foodbooklite-checkout .select2-container--focus .select2-selection {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.foodbooklite-order-data-table .order-status{
+  background: #f79101;
+  color: #fff;
+  padding: 5px 6px;
+  margin-bottom: 2px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.foodbooklite-order-data-table .order-status.pre-order{
+  background-color: #82b440;
+}
+/* Invitation Form */
+.fb_invitation_form input[type="text"].fb_input_style,
+.fb_invitation_form .fb_btn_fill {
+  height: 60px;
+}
+
+.fb_invitation_form .fb_input_style {
+  margin-bottom: 20px;
+}
+
+/* Print area */
+.fb_modal_content .fb_modal_title {
+  overflow: hidden; 
+}
+.fb_order_table {
+  overflow: hidden; 
+}
+.inv-header-info {
+  overflow: hidden;
+  margin-bottom: 15px;  
+}
+.inv-header-info p{
+  margin-bottom: 5px;
+}
+
+/* table responsive */
+
+@media only screen and (max-width: 700px) {
+  
+  .fb_cart_table {
+    overflow-x: scroll;
+    display: block;
+  }
+  .fb_cart_item_title {
+    min-width: 140px;
+  }
+
+
+}
+
+@media only screen and (max-width: 399px) {
+  
+  .fb_order_btn_group .fb_btn_fill:not(.toggle) {
+    padding: 10px 9px;
+  }
+
+
+}
+
+/*** Custom css ***/
+
+.fb_mt_5 {
+  margin-top: 5px !important;
+}
+.fb__wrapper .fb_section_title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+  align-items: center;
+}
+.fb__wrapper .fb_section_title h3 {
+  margin-bottom: 0;
+}
+.fb_section_title .orderby-filter {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: auto;
+  height: 36px;
+}
+
+/** List view css */
+
+.fb_product_list .fb_order_button{
+  margin-top: 18px;
+}
+.fb_product_list .fb_product_content {
+  text-align: left;
+}
+.product-search-result-list .fb_product_content {
+  text-align: left;
+}
+.product-search-result-list .fb_order_button {
+  margin-top: 18px;
+}
+.morecontent span {
+  display: none; 
+}
+
+.morelink {
+  display: block;
+  margin-top: 6px 
+}
+
+.fb_product_list .fb_product_content {
+  padding: 16px;
+}
+
+.fb_product_list .fb_product_desc {
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 380px) {
+
+.fb__wrapper .fb_section_title h3 {
+  font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+.fb_product_list.fb_single_product_item .fb_product_top .fb_badge{
+    left: 40%;
+    top: 7%;
+}
+
+}
+
+
+.fb_col_lg_3 .fb_single_product_item .fb_product_top .fb_badge {
+  left: 36%;
+  top: 6%;
+}
+.fb_col_lg_6 .fb_single_product_item .fb_product_top .fb_badge {
+  left: 40%;
+  top: 5%;
+}
+
+.modal-order-top-info h4 {
+  font-size: 16px !important;
+  text-align: center;
+}
+
+/**** Notification ****/
+
+.fb-admin-order-push-notification {
+  position: fixed;
+  top: 20%;
+  right: 3%;
+}
+.fb-admin-order-push-notification-inner {
+  background: #f79101; 
+  z-index: 1000000;
+  padding: 13px 20px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  display: none;
+  -webkit-box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.25);
+}
+.fb-admin-order-push-notification p{
+  margin: 0px;
+}
+
+.foodbooklite-loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #f79101;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/**
+ * Delivery Availability Location modal css
+ */
+@media only screen and (min-width: 1300px){
+  .fb_modal_wrap.fb_modal_location {
+      width: 600px;
+  }
+}
+@media only screen and (min-width: 1199px) {
+  .fb_modal_wrap.fb_modal_location {
+      width: 600px;
+  }
+}
+.fb-checkout-delivery-availability-checker {
+  background: rgb(239 234 234);
+  padding: 20px;
+  margin-top: 25px;
+}
+.fb-checkout-delivery-availability-checker .fb_modal_content h4{
+  margin-top: 0px;
+}
+.fb_delivery_availability_checker .fb_modal_content h4 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+.fb_delivery_availability_checker .fb_modal_content .restaurant-location-area {
+  margin-bottom: 20px;
+}
+.fb_delivery_availability_checker .fb-availability-check-buton {
+  margin-top: 25px;
+}
+.fb_delivery_availability_checker .fb-availability-check-result p {
+  background: #17a2b8;
+  padding: 5px 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.fb_delivery_availability_checker .fb_modal_content {
+  position: relative;
+}
+.pac-container {
+  z-index: 100000000;
+}
+.pac-logo::after {
+  background:inherit;
+}
+.fb_modal_location .fb_modal_content {
+  padding: 30px;
+}
+.fb-locate-me {
+  cursor: pointer;
+}
+.pac-card p {
+  display: flex;
+}
+.pac-card p span {
+  margin-right: 10px;
+  line-height: 1.2;
+}
+.fb-checkout-delivery-availability-checker .pac-card p img {
+  margin-top: 4px;
+}
+.pac-card p img {
+  width: 20px;
+  height: 20px;
+}
+.fb-availability-check-buton .fb_close_modal {
+  position: relative;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  background: #000;
+  top: auto;
+  right: auto;
+}
+.fb_modal_content .fb_input_style {
+  margin-bottom: 20px;
+}
+/*.fb_modal_content .zip-code-list {
+  text-align: center;
+}*/
+.fb_modal_content .zip-codes {
+  display: flex;
+  /*justify-content: center;*/
+}
+.fb_modal_content .zip-codes label {
+  border: 1px solid #eee;
+  padding: 8px 11px;
+  cursor: pointer;
+  margin: 6px;
+  transition: 0.5s;
+}
+.fb_modal_content .zip-codes label:hover {
+  background: red;
+  color: #fff;
+}
+.fb_modal_content .zip-codes label input,
+.fb_modal_content .zip-codes label span {
+  vertical-align: middle;
+  margin: 0;
+}
+.fb_modal_content .zip-codes label input {
+  margin-right: 3px;
+}
+.fb-show-availability-check-modal {
+  margin-top: 12px;
+  display: block;
+}
+a.fb_btn_fill.preorder-date-filter{
+  margin-left: 14px !important;
+}

@@ -1,0 +1,23 @@
+.fb_align_items_center {
+    align-items: center !important;
+}
+.fb_align_items_end {
+    align-items: flex-end !important;
+}
+.fb_justify_content_center {
+    justify-content: center !important;
+}
+.fb_justify_content_between {
+    justify-content: space-between !important;
+}
+
+.fb_ {
+    &text_right {
+        text-align: right !important;
+    }
+    &text_md_right {
+        @include customMin(768) {
+            text-align: right !important;
+        }
+    }
+}

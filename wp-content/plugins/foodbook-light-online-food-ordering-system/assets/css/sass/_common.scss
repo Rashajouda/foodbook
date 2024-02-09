@@ -1,0 +1,157 @@
+/* Section Padding */
+.fb-pt-80 {
+    padding-top: 80px;
+}
+.pb-pb-80 {
+    padding-bottom: 80px;
+}
+
+/* Custom CheckBox */
+.fb_custom_checkbox {
+    display: inline-block;
+    position: relative;
+    label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        user-select: none;
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+            left: 0;
+            top: 0;
+        }
+        .fb_custom_checkmark {
+            order: -1;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 15px;
+            min-width: 15px;
+            background-color: #fff;
+            border: 1px solid #b5b5b5;
+            border-radius: 2px;
+            transition: 0.2s ease-in;
+            &:after {
+                content: "";
+                height: 5px;
+                width: 5px;
+                display: block;
+                opacity: 0;
+                visibility: hidden;
+                background-color: $c1;
+                transition: 0.2s ease-in;
+            }
+        }
+        .fb_input_text {
+            font-size: 14px;
+            font-weight: $semi-bold;
+            color: $heading-color;
+            transition: 0.2s ease-in;
+        }
+        input:checked {
+            ~ .fb_custom_checkmark {
+                border-color: $c1;
+                background-color: #fff4e5;
+                &:after {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+            ~ .fb_input_text,
+            ~ .fb_label_title .fb_input_text {
+                color: $c1 !important;
+            }
+        }
+    }
+}
+
+/* alignment */
+.fb_text_center {
+    text-align: center !important;
+}
+
+/* List */
+.fb_list_unstyled {
+    @extend %list-unstyled;
+}
+
+.fb_d_flex {
+    display: flex !important;
+}
+
+.fb_d_inline_flex {
+    display: inline-flex !important;
+}
+
+.fb-d-none {
+    display: none;
+}
+
+@include customMin(768) {
+    .fb_d_md_flex {
+        display: flex !important;
+    }
+}
+@include customMin(576) {
+    .fb_d_sm_flex {
+        display: flex !important;
+    }
+}
+
+/* w 100 */
+.fb_w_100 {
+    width: 100%;
+    display: block;
+}
+
+/* Margins */
+.fb_mb_0 {
+    margin-bottom: 0px !important;
+}
+.fb_mb_20 {
+    margin-bottom: 30px !important;
+}
+.fb_mb_30 {
+    margin-bottom: 30px !important;
+}
+.fb_mb_10 {
+    margin-bottom: 10px !important;
+}
+.fb_mb_15 {
+    margin-bottom: 15px !important;
+}
+.fb_mt_50 {
+    margin-top: 50px !important;
+}
+.fb_mb_50 {
+    margin-bottom: 50px !important;
+}
+
+@include customMin(992) {
+    .fb_mt_lg_0 {
+        margin-top: 0 !important;
+    }
+}
+@include customMin(768) {
+    .fb_mb_md_0 {
+        margin-bottom: 0 !important;
+    }
+}
+
+//font sizes
+
+.fz-30 {
+    font-size: 30px !important;
+}
+//alert
+.assigned-alert {
+    width: 100%;
+    flex: 0 0 100%;
+    margin-top: 10px;
+    color: green;
+}

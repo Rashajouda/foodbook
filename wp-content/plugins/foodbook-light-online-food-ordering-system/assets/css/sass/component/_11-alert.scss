@@ -1,0 +1,73 @@
+/* Order Info */
+.fb_order_info {
+    margin-bottom: 30px;
+}
+
+.fb_order_info p {
+    margin: 0;
+    color: #666;
+}
+
+.fb_order_info p:not(:last-child) {
+    margin-bottom: 10px;
+}
+.fb-alert {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.fb-alert-danger {
+    color: #fff;
+    background-color: #721c24;
+    border-color: #721c24;
+}
+
+.fb-after-cart-button .fb_order_btn_group {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.fb-after-cart-button .fb_btn_fill {
+    margin-right: 12px;
+}
+
+.fb-alert-inner {
+    padding: 12px;
+    position: fixed;
+    top: 53px;
+    right: 39px;
+    z-index: 10000000;
+}
+
+.fb-alert-inner.alert-success {
+    background-color: #155724;
+    color: #fff;
+}
+
+.fb-alert-inner.alert-warning {
+    background: #856404;
+    color: #fff;
+}
+
+.fb-alert-inner p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.fb-alert-danger {
+    background: #e63d3d;
+    color: #fff;
+}
+
+.fb-alert-success {
+    background: #008000;
+    color: #fff;
+}
+
+.fb-alert-warning {
+    background: #bf1f1f;
+    color: #fff;
+}

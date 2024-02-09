@@ -1,0 +1,75 @@
+/* Pagination */
+.fb_pagination_list {
+    @extend %list-unstyled;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    .fb_pagination_list_item {
+        width: 45px;
+        height: 45px;
+        border: 1px solid $c1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 18px;
+        color: $c1;
+        cursor: pointer;
+        @extend %trans3;
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+        &:hover,
+        &.active {
+            background-color: $c2;
+            color: #fff;
+        }
+    }
+}
+.fb_icon_pagination {
+    margin-bottom: 15px;
+    line-height: 1;
+    li {
+        cursor: pointer;
+        opacity: 0.3;
+        @extend %trans3;
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+/* Quantity */
+.fb_quantity {
+    max-width: 70px;
+    width: 100%;
+    user-select: none;
+    .fb_plus,
+    .fb_minus {
+        @extend %fb_close_button;
+    }
+    .fb_quantity_input {
+        user-select: none;
+        max-width: 40px;
+        width: 100%;
+        text-align: center;
+        border: none;
+        font-size: 16px;
+        color: $heading-color;
+        font-weight: $bold;
+        padding: 0;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.fb_label_title {
+    font-size: 16px;
+    color: $heading-color;
+    font-weight: $bold;
+}

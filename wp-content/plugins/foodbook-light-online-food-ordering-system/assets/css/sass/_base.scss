@@ -1,0 +1,31 @@
+.fb__wrapper {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: calc(24 / 14);
+    color: $text-color;
+    padding: 100px 0;
+    *,
+    *::before,
+    *::after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: none;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        color: $heading-color;
+        font-weight: $bold;
+    }
+    img {
+        max-width: 100%;
+    }
+    a {
+        text-decoration: none;
+    }
+}

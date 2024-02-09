@@ -1,0 +1,119 @@
+.fb {
+    //Container
+    &_container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        @include customMin(576) {
+            max-width: 540px;
+        }
+        @include customMin(768) {
+            max-width: 720px;
+        }
+        @include customMin(992) {
+            max-width: 960px;
+        }
+        @include customMin(1200) {
+            max-width: 1140px;
+        }
+    }
+
+    //Row
+    &_row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    //Columns
+    &_col_12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        @extend %col;
+    }
+
+    // sm
+    &_col_sm_6 {
+        @extend %col;
+        @include customMin(576) {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    // md
+    &_col_md_6 {
+        @extend %col;
+        @include customMin(768) {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    &_col_md_4 {
+        @extend %col;
+        @include customMin(768) {
+            -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+    }
+
+    // lg
+    &_col_lg_9 {
+        @extend %col;
+        @include customMin(992) {
+            -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+    }
+    &_col_lg_8 {
+        @extend %col;
+        @include customMin(992) {
+            -ms-flex: 0 0 66.666667%;
+            flex: 0 0 66.666667%;
+            max-width: 66.666667%;
+        }
+    }
+    &_col_lg_6 {
+        @extend %col;
+        @include customMin(992) {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    &_col_lg_4 {
+        @extend %col;
+        @include customMin(992) {
+            -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+    }
+    &_col_lg_3 {
+        @extend %col;
+        @include customMin(992) {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+
+    &_col {
+        @extend %col;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+}

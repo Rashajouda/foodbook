@@ -1,0 +1,1398 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Foodbook Lite - Online Food Ordering System\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-01 11:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: foodbooklite"
+
+#: template/woocommerce/myaccount/view-order.php:41
+msgid " On "
+msgstr ""
+
+#: view/template-modal-reviews.php:17
+msgid "1"
+msgstr ""
+
+#: admin/inc/admin-template.php:254
+msgid "12 Hour"
+msgstr ""
+
+#: admin/inc/admin-template.php:263
+msgid "120min"
+msgstr ""
+
+#: admin/inc/admin-template.php:264
+msgid "180min"
+msgstr ""
+
+#: view/template-modal-reviews.php:18
+msgid "2"
+msgstr ""
+
+#: admin/inc/admin-template.php:138
+msgid "2 Column"
+msgstr ""
+
+#: admin/inc/admin-template.php:255
+msgid "24 Hour"
+msgstr ""
+
+#: view/template-modal-reviews.php:19
+msgid "3"
+msgstr ""
+
+#: admin/inc/admin-template.php:139
+msgid "3 Column"
+msgstr ""
+
+#: admin/inc/admin-template.php:261
+msgid "30min"
+msgstr ""
+
+#: view/template-modal-reviews.php:20
+msgid "4"
+msgstr ""
+
+#: admin/inc/admin-template.php:140
+msgid "4 Column"
+msgstr ""
+
+#: view/template-modal-reviews.php:21
+msgid "5"
+msgstr ""
+
+#: admin/inc/admin-template.php:145
+msgid "6"
+msgstr ""
+
+#: admin/inc/admin-template.php:262
+msgid "60min"
+msgstr ""
+
+#: admin/inc/admin-template.php:721
+msgid "Accept Cooking Notification Text"
+msgstr ""
+
+#: inc/helper-functions.php:105 admin/inc/admin-template.php:811
+msgid "Accepted Cooking"
+msgstr ""
+
+#: admin/inc/admin-template.php:810
+msgid "Accepted Cooking Text"
+msgstr ""
+
+#: org-addons/Org_Addons.php:115
+msgid "Activate"
+msgstr ""
+
+#: org-addons/Org_Addons.php:120
+msgid "Active"
+msgstr ""
+
+#: admin/inc/admin-template.php:704
+msgid "Active Email Notification"
+msgstr ""
+
+#: admin/inc/admin-template.php:346
+msgid "Active Invitation Option"
+msgstr ""
+
+#: inc/woo-product-tab/woo-product-tab.php:36
+#: inc/woo-product-tab/woo-product-tab.php:112
+msgid "Add Features"
+msgstr ""
+
+#: inc/woo-product-tab/woo-product-tab.php:121
+msgid "Add Group"
+msgstr ""
+
+#: view/template-modal-product-content.php:207
+msgid "Add instructions..."
+msgstr ""
+
+#: admin/inc/admin-template.php:605
+msgid "Add Single Branch Shop Zip Code"
+msgstr ""
+
+#: view/template-modal-product-content.php:228
+msgid "Add to cart"
+msgstr ""
+
+#: admin/inc/admin-template.php:117
+msgid "Add To Cart Button Show"
+msgstr ""
+
+#: view/template-modal-checkout.php:140
+msgid "Additional Information"
+msgstr ""
+
+#: template/woocommerce/checkout/form-shipping.php:54
+msgid "Additional information"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:202
+msgid ""
+"Additional information you'd like we delivery\n"
+"              services. Thank you!"
+msgstr ""
+
+#: view/template-modal-checkout.php:145
+msgid "Additional information..."
+msgstr ""
+
+#: admin/inc/admin-template.php:600
+msgid "Address"
+msgstr ""
+
+#: view/template-modal-checkout.php:50
+msgid "Address 1"
+msgstr ""
+
+#: view/template-modal-checkout.php:63
+msgid "Address 2"
+msgstr ""
+
+#: inc/class-components.php:329 inc/class-components.php:349
+#: inc/class-components.php:389 inc/class-components.php:398
+#: inc/class-components.php:520 inc/class-components.php:540
+msgid "Address: "
+msgstr ""
+
+#: view/template-part-woo-items.php:100 view/template-part-woo-items.php:157
+msgid "All"
+msgstr ""
+
+#: inc/class-components.php:124 inc/class-components.php:193
+msgid "All Branches"
+msgstr ""
+
+#: view/template-part-woo-items.php:205
+msgid "All items"
+msgstr ""
+
+#: admin/inc/admin-template.php:307
+msgid "All Order Show In Kitchen"
+msgstr ""
+
+#: inc/class-components.php:134
+msgid "All Pre Order"
+msgstr ""
+
+#: view/template-modal-billing-summary.php:17
+msgid "Apply"
+msgstr ""
+
+#: inc/class-components.php:36
+msgid "Assign"
+msgstr ""
+
+#: view/template-modal-reviews.php:3
+msgid "Back"
+msgstr ""
+
+#: template/woocommerce/checkout/form-billing.php:25
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:134
+msgid "Billing address"
+msgstr ""
+
+#: template/woocommerce/checkout/form-billing.php:29
+msgid "Billing details"
+msgstr ""
+
+#: inc/class-components.php:322 inc/class-components.php:383
+#: inc/class-components.php:513
+msgid "Billing Information"
+msgstr ""
+
+#: view/template-modal-billing-summary.php:4
+msgid "Billing Summary"
+msgstr ""
+
+#: inc/class-hooks.php:241
+msgid "Branch Manager"
+msgstr ""
+
+#: admin/inc/admin-template.php:299
+msgid "Branch Transfer Option"
+msgstr ""
+
+#: admin/inc/admin-template.php:176
+msgid "Branch Type"
+msgstr ""
+
+#: inc/class-text.php:24 view/template-modal-cart-content.php:132
+msgid "Buy More"
+msgstr ""
+
+#: admin/inc/admin-template.php:530
+msgid "Cart Button background"
+msgstr ""
+
+#: admin/inc/admin-template.php:536
+msgid "Cart Button Count background"
+msgstr ""
+
+#: admin/inc/admin-template.php:541
+msgid "Cart Button Count Text Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:170
+msgid "Cart Button Icon"
+msgstr ""
+
+#: inc/class-product-layout.php:48 inc/class-product-layout.php:211
+msgid "cart hover icon"
+msgstr ""
+
+#: inc/class-product-layout.php:41 inc/class-product-layout.php:44
+#: inc/class-product-layout.php:204 inc/class-product-layout.php:207
+msgid "cart icon"
+msgstr ""
+
+#: view/template-part-woo-items.php:90
+msgid "Categories"
+msgstr ""
+
+#: admin/inc/admin-template.php:547
+msgid "Category Item Odd Background"
+msgstr ""
+
+#: admin/inc/admin-template.php:552
+msgid "Category Item Text Color"
+msgstr ""
+
+#: inc/woo-product-tab/woo-product-tab.php:82
+msgid "Checkbox"
+msgstr ""
+
+#: view/template-modal-cart-content.php:135
+msgid "Checkout"
+msgstr ""
+
+#: admin/inc/admin-template.php:664
+msgid "Checkout Page Delivery Location Checker Active"
+msgstr ""
+
+#: admin/inc/admin-template.php:211
+msgid "Checkout Page Delivery Option Show/Hide"
+msgstr ""
+
+#: view/template-modal-loginreg.php:134
+msgid "Choose your Password"
+msgstr ""
+
+#: view/template-modal-checkout.php:152
+msgid "Choose your pickup method"
+msgstr ""
+
+#: view/template-modal-checkout.php:96
+msgid "city"
+msgstr ""
+
+#: inc/class-hooks.php:299
+msgid "close"
+msgstr ""
+
+#: admin/inc/admin-template.php:69
+msgid "Color Settings"
+msgstr ""
+
+#: view/template-modal-checkout.php:16
+msgid "Contact Name"
+msgstr ""
+
+#: admin/inc/admin-template.php:725
+msgid "Cooking Complete Notification Text"
+msgstr ""
+
+#: inc/helper-functions.php:108 admin/inc/admin-template.php:787
+msgid "Cooking Completed"
+msgstr ""
+
+#: admin/inc/admin-template.php:786
+msgid "Cooking Completed Text"
+msgstr ""
+
+#: inc/helper-functions.php:113 admin/inc/admin-template.php:783
+msgid "Cooking Processing"
+msgstr ""
+
+#: admin/inc/admin-template.php:782
+msgid "Cooking Processing Text"
+msgstr ""
+
+#: view/template-modal-checkout.php:79
+msgid "Country / Region"
+msgstr ""
+
+#: template/woocommerce/checkout/form-billing.php:54
+msgid "Create an account?"
+msgstr ""
+
+#: admin/inc/admin-template.php:634
+msgid "Create google API "
+msgstr ""
+
+#: view/template-modal-product-content.php:25
+msgid "customer reviews"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:89
+msgid "Date:"
+msgstr ""
+
+#: view/template-part-woo-items.php:207
+msgid "Default sorting"
+msgstr ""
+
+#: admin/inc/admin-template.php:303
+msgid "Deliver Boy Assign Option"
+msgstr ""
+
+#: inc/class-text.php:35
+msgid "Deliver/Pickup Date"
+msgstr ""
+
+#: inc/class-text.php:36 view/template-modal-checkout.php:200
+msgid "Deliver/Pickup Time"
+msgstr ""
+
+#: admin/inc/admin-template.php:229
+msgid "Deliver/Pickup Time and Date Show/Hide"
+msgstr ""
+
+#: template/woocommerce/checkout/form-checkout.php:86
+msgid "Delivery"
+msgstr ""
+
+#: inc/class-hooks.php:242
+msgid "Delivery Boy"
+msgstr ""
+
+#: admin/inc/admin-template.php:733
+msgid "Delivery Complete Notification Text"
+msgstr ""
+
+#: inc/helper-functions.php:112 admin/inc/admin-template.php:803
+msgid "Delivery Completed"
+msgstr ""
+
+#: admin/inc/admin-template.php:802
+msgid "Delivery Completed Text"
+msgstr ""
+
+#: inc/class-components.php:447 inc/class-components.php:596
+#: inc/class-woo-hooks.php:353
+msgid "Delivery Fee"
+msgstr ""
+
+#: inc/class-text.php:33
+msgid "Delivery is available"
+msgstr ""
+
+#: template/woocommerce/checkout/form-checkout.php:121
+msgid "Delivery Schedule Type"
+msgstr ""
+
+#: admin/inc/admin-template.php:65
+msgid "Delivery Settings"
+msgstr ""
+
+#: admin/inc/admin-template.php:252
+msgid "Delivery Time Format"
+msgstr ""
+
+#: admin/inc/admin-template.php:259
+msgid "Delivery Time Slot"
+msgstr ""
+
+#: inc/class-woo-hooks.php:102
+#: template/woocommerce/checkout/form-checkout.php:76
+msgid "Delivery Type"
+msgstr ""
+
+#: inc/class-components.php:377 inc/class-components.php:506
+#, php-format
+msgid "Delivery Type: %s"
+msgstr ""
+
+#: admin/inc/admin-template.php:220
+msgid "Delivery/Pickup Both"
+msgstr ""
+
+#: inc/class-components-ajax.php:217
+msgid "E-mail id not found."
+msgstr ""
+
+#: view/template-modal-loginreg.php:118
+msgid "email"
+msgstr ""
+
+#: admin/inc/admin-template.php:71
+msgid "Email Settings"
+msgstr ""
+
+#: admin/inc/admin-template.php:741
+msgid "Email Template Footer Text"
+msgstr ""
+
+#: admin/inc/admin-template.php:745
+msgid "Email Template Header Background Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:737
+msgid "Email Template Header Text"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:95
+msgid "Email:"
+msgstr ""
+
+#: admin/inc/admin-template.php:645
+msgid "Enter a location"
+msgstr ""
+
+#: inc/class-components-ajax.php:111
+msgid "Error Occured please fill up the sign up form carefully."
+msgstr ""
+
+#: inc/class-components.php:413 inc/class-components.php:558
+msgid "Extra Item"
+msgstr ""
+
+#: view/template-modal-cart-content.php:56
+msgid "Extra Item:- "
+msgstr ""
+
+#: view/template-modal-cart-content.php:26
+msgid "Extra Items Price"
+msgstr ""
+
+#: admin/inc/admin-template.php:368
+msgid "Facebook Share Link"
+msgstr ""
+
+#: inc/woo-product-tab/woo-product-tab.php:93
+msgid "Feature Section Title"
+msgstr ""
+
+#: inc/class-components.php:97 inc/class-components.php:133
+#: inc/class-components.php:204
+msgid "Filter"
+msgstr ""
+
+#: inc/class-components.php:113
+msgid "Filter By Delivery Date:"
+msgstr ""
+
+#: inc/class-components.php:92 inc/class-components.php:179
+msgid "Filter By Order Date:"
+msgstr ""
+
+#. Name of the plugin
+msgid "Foodbook Lite - Online Food Ordering System"
+msgstr ""
+
+#: admin/inc/class-admin-menu.php:40
+msgid "Foodbooklite"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"FoodBookLite is a Online Food Ordering system for WordPress. It is developed "
+"based on woocommerce. It is a standalone WordPress plugin which allows you "
+"to easily add Food Ordering System to your WordPress Website. Using "
+"FoodBookLite you can easily receive both PickUp and Delivery orders."
+msgstr ""
+
+#: foodbook-lite.php:104
+#, php-format
+msgid ""
+"FoodBookLite requires the WooCommerce plugin to be installed and active. You "
+"can download %s woocommerce %s here. Thanks."
+msgstr ""
+
+#: admin/inc/class-admin-menu.php:39 admin/inc/class-admin-menu.php:45
+msgid "Foodbooklite Settings"
+msgstr ""
+
+#: admin/inc/admin-template.php:64
+msgid "General"
+msgstr ""
+
+#: admin/inc/admin-template.php:510
+msgid "Global Button Background Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:515
+msgid "Global Button Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:520
+msgid "Global Button Hover Background Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:525
+msgid "Global Button Hover Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:130
+msgid "Grid Column"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themelooks.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.themelooks.com/blog/"
+msgstr ""
+
+#: view/template-modal-cart-content.php:23
+msgid "Image"
+msgstr ""
+
+#: view/template-modal-cart-content.php:12
+#, php-format
+msgid "In your bag %s items"
+msgstr ""
+
+#: org-addons/Org_Addons.php:125
+msgid "Install Now"
+msgstr ""
+
+#: view/template-modal-cart-content.php:50
+msgid "Instructions:"
+msgstr ""
+
+#: template/woocommerce/checkout/review-order.php:45
+msgid "instructions:"
+msgstr ""
+
+#: admin/inc/admin-template.php:357
+msgid "Invitation Message"
+msgstr ""
+
+#: admin/inc/admin-template.php:351
+msgid "Invitation Message Subject"
+msgstr ""
+
+#: inc/class-components-ajax.php:212
+msgid "Invite failed, please try again."
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:218
+msgid "Invite frends"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:199
+msgid "Invite your friend"
+msgstr ""
+
+#: template/woocommerce/checkout/review-order.php:52
+msgid "Item Extra:"
+msgstr ""
+
+#: inc/class-woo-hooks.php:74
+msgid "Item Extra:-"
+msgstr ""
+
+#: inc/class-woo-hooks.php:67
+msgid "Item Instructions"
+msgstr ""
+
+#: inc/class-components.php:412 inc/class-components.php:557
+msgid "Item Name"
+msgstr ""
+
+#: inc/class-components.php:414 inc/class-components.php:559
+msgid "Item Total Price"
+msgstr ""
+
+#: inc/class-hooks.php:240
+msgid "Kitchen Manager"
+msgstr ""
+
+#: admin/inc/admin-template.php:66
+msgid "Kitchen Options"
+msgstr ""
+
+#: template/woocommerce/myaccount/view-order.php:50
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: inc/class-text.php:29
+msgid "Less"
+msgstr ""
+
+#: admin/inc/admin-template.php:131
+msgid "List Column"
+msgstr ""
+
+#: inc/woo-product-tab/woo-product-tab.php:79
+msgid "List Type"
+msgstr ""
+
+#: inc/class-text.php:30 view/template-modal-wrapper.php:22
+msgid "Loading"
+msgstr ""
+
+#: admin/inc/admin-template.php:660
+msgid "Location Modal Popup Active"
+msgstr ""
+
+#: admin/inc/admin-template.php:70
+msgid "Location Settings"
+msgstr ""
+
+#: admin/inc/admin-template.php:598
+msgid "Location Type"
+msgstr ""
+
+#: inc/class-components.php:79
+msgid "Log Out"
+msgstr ""
+
+#: inc/class-components-ajax.php:57
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: view/template-modal-steps.php:36
+msgid "Login/Register"
+msgstr ""
+
+#: admin/inc/admin-template.php:481
+msgid "Main Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:144
+msgid "Manager Page Order Notification Delay Time ( default 6 second )"
+msgstr ""
+
+#: view/template-modal-checkout.php:33
+msgid "Mobile Number"
+msgstr ""
+
+#: org-addons/Org_Addons.php:134
+msgid "More Details"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:63
+msgid "My account"
+msgstr ""
+
+#: admin/inc/admin-template.php:558
+msgid "My Account Tab Background"
+msgstr ""
+
+#: admin/inc/admin-template.php:568
+msgid "My Account Tab Hover Background"
+msgstr ""
+
+#: admin/inc/admin-template.php:573
+msgid "My Account Tab Hover Text Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:563
+msgid "My Account Tab Text Color"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:137
+#: template/woocommerce/checkout/thankyou.php:155
+msgid "N/A"
+msgstr ""
+
+#: view/template-modal-cart-content.php:24
+msgid "Name"
+msgstr ""
+
+#: inc/class-components.php:325 inc/class-components.php:344
+#: inc/class-components.php:385 inc/class-components.php:397
+#: inc/class-components.php:516 inc/class-components.php:535
+#, php-format
+msgid "Name: %s"
+msgstr ""
+
+#: inc/helper-functions.php:100 admin/inc/admin-template.php:775
+msgid "New Order"
+msgstr ""
+
+#: inc/class-text.php:31
+msgid "New Order Placed"
+msgstr ""
+
+#: admin/inc/admin-template.php:774
+msgid "New Order Text"
+msgstr ""
+
+#: admin/inc/admin-template.php:219
+msgid "None"
+msgstr ""
+
+#: admin/inc/admin-template.php:183
+msgid "Notification Audio Loop"
+msgstr ""
+
+#: inc/class-product-layout.php:64 inc/class-product-layout.php:144
+#: inc/class-product-layout.php:260 inc/class-product-layout.php:334
+msgid "On sale"
+msgstr ""
+
+#: inc/helper-functions.php:110 admin/inc/admin-template.php:795
+msgid "On The Way"
+msgstr ""
+
+#: admin/inc/admin-template.php:729
+msgid "On The Way Notification Text"
+msgstr ""
+
+#: admin/inc/admin-template.php:794
+msgid "On The Way Text"
+msgstr ""
+
+#: inc/helper-functions.php:111 admin/inc/admin-template.php:819
+msgid "On The Way To Delivery"
+msgstr ""
+
+#: admin/inc/admin-template.php:818
+msgid "On The Way To Delivery Text"
+msgstr ""
+
+#: view/template-modal-reviews.php:40
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:232
+msgid "OR"
+msgstr ""
+
+#. 1: order number 2: order date 3: order status
+#: template/woocommerce/myaccount/view-order.php:28
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: admin/inc/admin-template.php:487
+msgid "Order Button Background Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:492
+msgid "Order Button Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:497
+msgid "Order Button Hover Background Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:502
+msgid "Order Button Hover Color"
+msgstr ""
+
+#: admin/inc/admin-template.php:164
+msgid "Order Button Hover Icon"
+msgstr ""
+
+#: admin/inc/admin-template.php:158
+msgid "Order Button Icon"
+msgstr ""
+
+#: admin/inc/admin-template.php:153
+msgid "Order Button Text"
+msgstr ""
+
+#: inc/helper-functions.php:103 admin/inc/admin-template.php:771
+msgid "Order Cancel"
+msgstr ""
+
+#: admin/inc/admin-template.php:713
+msgid "Order Cancel Notification Text"
+msgstr ""
+
+#: admin/inc/admin-template.php:770
+msgid "Order Cancel Text"
+msgstr ""
+
+#: inc/class-components.php:376 inc/class-components.php:505
+msgid "Order Date:"
+msgstr ""
+
+#: admin/inc/admin-template.php:245
+msgid "Order Delivery End Time"
+msgstr ""
+
+#: admin/inc/admin-template.php:238
+msgid "Order Delivery Start Time"
+msgstr ""
+
+#: inc/class-components.php:378 inc/class-components.php:507
+#, php-format
+msgid "Order Delivery/Pickup Time: %s"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:52
+msgid "Order Details"
+msgstr ""
+
+#: inc/class-components.php:504
+msgid "Order ID:"
+msgstr ""
+
+#: inc/class-components.php:375
+msgid "Order ID: #"
+msgstr ""
+
+#: admin/inc/class-admin-menu.php:49
+msgid "Order Manage"
+msgstr ""
+
+#: inc/class-product-layout.php:55 inc/class-product-layout.php:218
+msgid "Order Now"
+msgstr ""
+
+#: inc/class-product-layout.php:253 inc/class-product-layout.php:377
+msgid "order now"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:84
+msgid "Order number:"
+msgstr ""
+
+#: inc/helper-functions.php:101 admin/inc/admin-template.php:807
+msgid "Order Placed"
+msgstr ""
+
+#: admin/inc/admin-template.php:806
+msgid "Order Placed Text"
+msgstr ""
+
+#: admin/inc/admin-template.php:67
+msgid "Order Received Pgae"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:78
+msgid "Order Tracking"
+msgstr ""
+
+#: template/woocommerce/myaccount/view-order.php:41
+msgid "Order Tracking Status: "
+msgstr ""
+
+#: template/woocommerce/myaccount/view-order.php:44
+msgid "Order updates"
+msgstr ""
+
+#. page title
+#: admin/inc/class-admin-menu.php:50
+msgid "Orders"
+msgstr ""
+
+#: admin/inc/admin-template.php:340
+msgid "Page Description "
+msgstr ""
+
+#: admin/inc/admin-template.php:68
+msgid "Page Settings"
+msgstr ""
+
+#: admin/inc/admin-template.php:335
+msgid "Page Title"
+msgstr ""
+
+#: admin/inc/admin-template.php:328
+msgid "Page Top Image"
+msgstr ""
+
+#: view/template-modal-loginreg.php:72
+msgid "Password"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:61
+msgid "Pay"
+msgstr ""
+
+#: view/template-modal-checkout.php:252
+#: template/woocommerce/checkout/thankyou.php:183
+msgid "Payment Method"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:107
+msgid "Payment method:"
+msgstr ""
+
+#: inc/class-components.php:379 inc/class-components.php:508
+#, php-format
+msgid "Payment Method: %s"
+msgstr ""
+
+#: inc/class-components.php:327 inc/class-components.php:387
+#: inc/class-components.php:518
+msgid "Phone: "
+msgstr ""
+
+#: inc/class-woo-hooks.php:110 view/template-modal-checkout.php:223
+msgid "Pickup Branch Name"
+msgstr ""
+
+#: template/woocommerce/checkout/form-checkout.php:101
+msgid "Pickup by me"
+msgstr ""
+
+#: view/template-modal-checkout.php:294
+msgid "Place order"
+msgstr ""
+
+#: inc/class-woo-hooks.php:380 inc/class-woo-hooks.php:411
+#: inc/helper-functions.php:102
+msgid "Pre Order"
+msgstr ""
+
+#: admin/inc/admin-template.php:234
+msgid "Pre order active"
+msgstr ""
+
+#: admin/inc/admin-template.php:268
+msgid "Pre Order Days Limit"
+msgstr ""
+
+#: view/template-modal-cart-content.php:27
+msgid "Price"
+msgstr ""
+
+#: view/template-modal-product-content.php:28
+msgid "Price:"
+msgstr ""
+
+#: inc/helper-functions.php:104 admin/inc/admin-template.php:815
+msgid "Processing"
+msgstr ""
+
+#: admin/inc/admin-template.php:814
+msgid "Processing Text"
+msgstr ""
+
+#: view/template-modal-steps.php:9
+#: template/woocommerce/checkout/review-order.php:23
+msgid "Product"
+msgstr ""
+
+#: admin/inc/admin-template.php:135
+msgid "Product Column"
+msgstr ""
+
+#: view/template-modal-billing-summary.php:25
+msgid "Product Cost"
+msgstr ""
+
+#: inc/class-text.php:25
+msgid "Product don't added in the cart. please try again."
+msgstr ""
+
+#: admin/inc/admin-template.php:127
+msgid "Product Layout"
+msgstr ""
+
+#: inc/class-components-ajax.php:183
+msgid "Product not found."
+msgstr ""
+
+#: admin/inc/admin-template.php:837
+msgid "Product Page Shortcode"
+msgstr ""
+
+#: admin/inc/admin-template.php:122
+msgid "Product Per Page"
+msgstr ""
+
+#: view/template-modal-billing-summary.php:12
+msgid "Promo code"
+msgstr ""
+
+#: view/template-modal-cart-content.php:25
+msgid "Qty"
+msgstr ""
+
+#: view/template-modal-product-content.php:98
+msgid "Quantity"
+msgstr ""
+
+#: inc/woo-product-tab/woo-product-tab.php:86
+msgid "Radio"
+msgstr ""
+
+#: inc/helper-functions.php:109 admin/inc/admin-template.php:799
+msgid "Ready To Delivery"
+msgstr ""
+
+#: admin/inc/admin-template.php:798
+msgid "Ready To Delivery Text"
+msgstr ""
+
+#. page title
+#: admin/inc/class-admin-menu.php:57 admin/inc/class-admin-menu.php:58
+msgid "Recommended Plugins"
+msgstr ""
+
+#: view/template-modal-billing-summary.php:38
+#: view/template-modal-cart-content.php:29
+#: inc/woo-product-tab/woo-product-tab.php:105
+msgid "Remove"
+msgstr ""
+
+#: inc/woo-product-tab/woo-product-tab.php:114
+msgid "Remove Group"
+msgstr ""
+
+#: inc/class-text.php:26
+msgid "Review has been submitted successfully."
+msgstr ""
+
+#: inc/class-text.php:27
+msgid "Review submission Failed. Please try again."
+msgstr ""
+
+#: inc/class-text.php:38
+msgid "Schedule Delivery/Pickup"
+msgstr ""
+
+#: admin/inc/admin-template.php:112
+msgid "Search Section Show"
+msgstr ""
+
+#: admin/inc/admin-template.php:642
+msgid "Search Shop Location"
+msgstr ""
+
+#: view/template-part-woo-items.php:47
+msgid "Search svg"
+msgstr ""
+
+#: view/template-part-woo-items.php:54
+msgid "Search your favorite food..."
+msgstr ""
+
+#: admin/inc/admin-template.php:448
+msgid "Select Admin Page"
+msgstr ""
+
+#: inc/class-components.php:55
+msgid "Select Branch"
+msgstr ""
+
+#: admin/inc/admin-template.php:406
+msgid "Select Branch Manager Page"
+msgstr ""
+
+#: admin/inc/admin-template.php:434
+msgid "Select Delivery Page"
+msgstr ""
+
+#: admin/inc/admin-template.php:392
+msgid "Select Foodbooklite Shop Page"
+msgstr ""
+
+#: admin/inc/admin-template.php:420
+msgid "Select Kitchen Manager Page"
+msgstr ""
+
+#: inc/helper-functions.php:106 admin/inc/admin-template.php:779
+msgid "Send To Cooking"
+msgstr ""
+
+#: admin/inc/admin-template.php:717
+msgid "Send To Cooking Notification Text"
+msgstr ""
+
+#: admin/inc/admin-template.php:778
+msgid "Send To Cooking Text"
+msgstr ""
+
+#: admin/inc/admin-template.php:668
+msgid "Set Delivery Availability Checker Modal Show Page"
+msgstr ""
+
+#: admin/inc/admin-template.php:224
+msgid "Set Delivery Fee"
+msgstr ""
+
+#: admin/inc/admin-template.php:216
+msgid "Set Delivery Options"
+msgstr ""
+
+#: admin/inc/admin-template.php:656
+msgid "Set Distance Restrict (KM)"
+msgstr ""
+
+#: admin/inc/admin-template.php:630
+msgid "Set Google API Key"
+msgstr ""
+
+#: admin/inc/admin-template.php:148
+msgid "Set List View Product Description Characters"
+msgstr ""
+
+#: admin/inc/admin-template.php:638
+msgid "Set Single Branch Shop Location"
+msgstr ""
+
+#: admin/inc/admin-template.php:272
+msgid "Set Time Zone"
+msgstr ""
+
+#: admin/inc/admin-template.php:276
+msgid "Set time zone like ( Asia/Dhaka )"
+msgstr ""
+
+#: admin/inc/class-admin-menu.php:45
+msgid "Settings"
+msgstr ""
+
+#: admin/inc/admin-template.php:33
+msgid "Settings Saved"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:246
+#: template/woocommerce/checkout/thankyou.php:247
+msgid "Share on facebook"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:238
+#: template/woocommerce/checkout/thankyou.php:239
+msgid "Share on twitter"
+msgstr ""
+
+#: template/woocommerce/checkout/form-shipping.php:25
+msgid "Ship to a different address?"
+msgstr ""
+
+#: view/template-modal-checkout.php:9
+#: template/woocommerce/checkout/thankyou.php:153
+msgid "Shipping address"
+msgstr ""
+
+#: view/template-modal-billing-summary.php:29
+msgid "Shipping fee"
+msgstr ""
+
+#: inc/class-components.php:341 inc/class-components.php:395
+#: inc/class-components.php:532
+msgid "Shipping Information"
+msgstr ""
+
+#: view/template-modal-cart-content.php:11
+msgid "Shopping Cart :"
+msgstr ""
+
+#: admin/inc/admin-template.php:73 admin/inc/admin-template.php:834
+msgid "Shortcode List"
+msgstr ""
+
+#: inc/class-text.php:28
+msgid "Show More"
+msgstr ""
+
+#: view/template-modal-loginreg.php:18
+msgid "Sign-In"
+msgstr ""
+
+#: view/template-modal-loginreg.php:32
+msgid "Sign-Up"
+msgstr ""
+
+#: view/template-modal-loginreg.php:140
+msgid "SignUp"
+msgstr ""
+
+#: inc/class-text.php:34
+msgid "Sorry, We are not available to delivery in your area"
+msgstr ""
+
+#: view/template-part-woo-items.php:209
+msgid "Sort by average rating"
+msgstr ""
+
+#: view/template-part-woo-items.php:210
+msgid "Sort by latest"
+msgstr ""
+
+#: view/template-part-woo-items.php:208
+msgid "Sort by popularity"
+msgstr ""
+
+#: view/template-part-woo-items.php:212
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: view/template-part-woo-items.php:211
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: view/template-modal-product-content.php:203
+msgid "Special Instructions?"
+msgstr ""
+
+#: inc/class-hooks.php:126 view/template-part-woo-items.php:147
+msgid "Special Offer"
+msgstr ""
+
+#: inc/class-text.php:32
+msgid "Start Order"
+msgstr ""
+
+#: view/template-modal-checkout.php:113
+msgid "State"
+msgstr ""
+
+#: admin/inc/admin-template.php:72
+msgid "Status Text"
+msgstr ""
+
+#: admin/inc/admin-template.php:709
+msgid "Subject Text"
+msgstr ""
+
+#: view/template-modal-cart-content.php:28
+#: template/woocommerce/checkout/review-order.php:24
+#: template/woocommerce/checkout/review-order.php:73
+msgid "Subtotal"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:69
+#: template/woocommerce/checkout/thankyou.php:277
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: inc/class-components-ajax.php:210
+msgid "Thanks for sending invitation"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeLooks"
+msgstr ""
+
+#: inc/class-woo-hooks.php:106
+msgid "Time to Deliver/Pickup"
+msgstr ""
+
+#: inc/class-text.php:37
+msgid "Today Delivery/Pickup"
+msgstr ""
+
+#: inc/class-components.php:453 inc/class-components.php:604
+#: template/woocommerce/checkout/review-order.php:120
+msgid "Total"
+msgstr ""
+
+#: view/template-modal-billing-summary.php:42
+#: view/template-modal-cart-content.php:128
+msgid "Total Cost :"
+msgstr ""
+
+#: view/template-modal-product-content.php:215
+msgid "Total Price"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:101
+msgid "Total:"
+msgstr ""
+
+#: inc/class-components.php:62
+msgid "Transfer"
+msgstr ""
+
+#: admin/inc/admin-template.php:363
+msgid "Twitter Share Link"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:58
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: admin/inc/admin-template.php:187
+msgid "Upload Notification Audio MP3"
+msgstr ""
+
+#: inc/class-components-ajax.php:107
+msgid "User name already exixts."
+msgstr ""
+
+#: inc/class-components-ajax.php:103
+msgid "User Name and Email are mandatory"
+msgstr ""
+
+#: view/template-modal-loginreg.php:102
+msgid "username"
+msgstr ""
+
+#: view/template-modal-loginreg.php:56
+msgid "username/email"
+msgstr ""
+
+#: inc/class-text.php:23 view/template-modal-steps.php:22
+msgid "View Cart"
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:77
+msgid "View Orders"
+msgstr ""
+
+#: inc/helper-functions.php:107 admin/inc/admin-template.php:791
+msgid "Waiting For Kitchen Accept"
+msgstr ""
+
+#: admin/inc/admin-template.php:790
+msgid "Waiting For Kitchen Accept Text"
+msgstr ""
+
+#: inc/class-components-ajax.php:55 inc/class-components-ajax.php:97
+msgid "Wrong username or password."
+msgstr ""
+
+#: template/woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: view/template-modal-cart-content.php:18
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: template/woocommerce/checkout/thankyou.php:215
+msgid "Your email Address"
+msgstr ""
+
+#: template/woocommerce/checkout/form-checkout.php:180
+msgid "Your order"
+msgstr ""
+
+#: view/template-modal-reviews.php:14
+msgid "Your rating"
+msgstr ""
+
+#: view/template-modal-reviews.php:28
+msgid "Your review"
+msgstr ""
+
+#: view/template-modal-checkout.php:130
+msgid "zip"
+msgstr ""
+
+#: admin/inc/admin-template.php:601
+msgid "Zip Code"
+msgstr ""

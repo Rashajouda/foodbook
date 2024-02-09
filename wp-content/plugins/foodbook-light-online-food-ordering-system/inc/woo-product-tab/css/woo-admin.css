@@ -1,0 +1,69 @@
+.foodbooklite-extra-featured {
+	padding: 30px;
+}
+.foodbooklite-fields-group {
+	background: #FDFBF9;
+	border: 1px solid #EAE3DE;
+	padding: 25px;
+	margin-bottom: 10px;
+}
+.foodbooklite-fields-group .group-title-wrapper {
+	margin-bottom: 25px;
+}
+.foodbooklite-fields-group .group-title-wrapper input[type="text"] {
+	height: 40px;
+	border-radius: 3px;
+    border: 1px solid #8c8f943b;
+}
+.foodbooklite-fields-group .field-repeater {
+	display: flex;
+	margin-bottom: 12px;
+}
+.foodbooklite-fields-group .field-repeater input{
+	margin: 0px 8px;
+	border-radius: 3px;
+    border: 1px solid #8c8f943b;
+    height: 40px;
+}
+.foodbooklite-extra-featured .fb-btn {
+	background: #000;
+	cursor: pointer;
+	transition: 0.5s;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fecc35;
+    font-weight: 600;
+    border: none;
+}
+.foodbooklite-extra-featured .fb-btn:hover {
+	background: #e58701;
+	color: #fff;
+}
+.foodbooklite-extra-featured .fb-btn-margin-top {
+	margin-top: 15px;
+}
+.foodbooklite-extra-featured .fb-btn-margin-bottom {
+	margin-bottom: 15px;
+}
+.foodbooklite-extra-featured input{
+	border: 1px solid #e4e4e4;
+    border-radius: 0px;
+}
+.group-title-wrapper-list-type {
+    margin-bottom: 22px;
+    padding-left: 11px;
+}
+.group-title-wrapper-list-type label {
+    margin: 0px !important; 
+}
+.group-title-wrapper-list-type-inner {
+    display: flex;
+    align-items: center;
+}
+.group-title-wrapper-list-type-inner div { 
+    margin: 0px 20px;
+}
+.group-title-wrapper-list-type-inner div span {
+	margin-right: 5px;
+}

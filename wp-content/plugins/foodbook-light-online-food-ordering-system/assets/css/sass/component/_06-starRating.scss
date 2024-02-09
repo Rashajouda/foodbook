@@ -1,0 +1,61 @@
+/* Star Rating */
+.fb_star_rating {
+    font-size: 15px;
+    line-height: 1;
+    color: #f79101;
+}
+
+/* Stars */
+.stars.fb-product-star {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.stars.fb-product-star a {
+    position: relative;
+    height: 14px;
+    width: 14px;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.stars.fb-product-star a:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    content: "\f005";
+    font-weight: normal;
+    text-indent: 0;
+    color: #ffc600;
+}
+
+.stars.fb-product-star a:hover ~ a:before {
+    content: "\f005";
+    font-weight: normal;
+}
+
+.stars.fb-product-star:hover a:before {
+    content: "\f005";
+    font-weight: 900;
+}
+
+.stars.fb-product-star.selected a.active:before {
+    content: "\f005";
+    font-weight: 900;
+}
+
+.stars.fb-product-star.selected a.active ~ a:before {
+    content: "\f005";
+    font-weight: normal;
+}
+
+.stars.fb-product-star.selected a:not(.active)::before {
+    content: "\f005";
+    font-weight: 900;
+}

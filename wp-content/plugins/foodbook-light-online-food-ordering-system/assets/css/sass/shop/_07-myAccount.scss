@@ -1,0 +1,103 @@
+/* Woo Account */
+.foodbook-checkout {
+    a.edit {
+        font-style: italic;
+        font-weight: normal;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .woocommerce-MyAccount-navigation {
+        padding: 30px 0;
+        background-color: #fffbf9;
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            li {
+                margin: 0 0 5px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                a {
+                    display: block;
+                    border: none;
+                    padding: 19px 30px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: $heading-color;
+                    line-height: 1;
+                }
+                &.is-active,
+                &:hover {
+                    > a {
+                        text-decoration: none;
+                        color: $c1;
+                        background-color: rgba(225, 215, 202, 0.45);
+                    }
+                }
+            }
+        }
+    }
+
+    .woocommerce-address-fields__field-wrapper + p {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .woocommerce-EditAccountForm.edit-account > *:last-child {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .woocommerce-checkout .woocommerce-billing-fields,
+    .woocommerce-checkout .woocommerce-shipping-fields,
+    .woocommerce-checkout .woocommerce-additional-fields {
+        margin-bottom: 40px;
+    }
+
+    .woocommerce-MyAccount-content {
+        p {
+            font-size: inherit;
+        }
+        table {
+            @extend %table_style;
+        }
+    }
+    .woocommerce-button,
+    .woocommerce-Button,
+    .button {
+        @extend %btn_fill;
+    }
+
+    .woocommerce-EditAccountForm fieldset {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .woocommerce-PaymentMethods {
+        @extend %list-unstyled;
+        .woocommerce-PaymentMethod--stripe {
+            margin: 0;
+            position: relative;
+            padding-left: 31px;
+            label {
+                display: flex;
+                margin-bottom: 15px;
+                flex-wrap: wrap;
+            }
+        }
+        input#payment_method_stripe {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-left: 0;
+        }
+        fieldset#wc-stripe-cc-form {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+    }
+}

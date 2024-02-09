@@ -1,0 +1,13 @@
+.own-slider-field {
+	width: 90%;
+}
+.own-slider-field-value-display {
+	font-weight: 400;
+	font-size: 12px;
+	color: #888;
+	padding-top: .5em;
+	display: block;
+}
+.ui-slider .ui-slider-range {
+  background-color: #4286f4;
+}

@@ -1,0 +1,99 @@
+/* Input List */
+.fb_form_input_list {
+    .input_list_title {
+        font-size: 16px;
+        font-weight: $bold;
+        margin: 0 0 10px;
+    }
+    ul {
+        li {
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &:not(:last-child) {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgba(#000000, 0.05);
+    }
+}
+
+/* Inputs */
+.fb_input_style {
+    @extend %input_style;
+}
+
+textarea.fb_input_style {
+    @extend %textarea;
+}
+
+.fb_input_group {
+    position: relative;
+    margin-bottom: 20px;
+    &.fb_d_flex {
+        flex-wrap: wrap;
+        .fb_input_style {
+            margin-right: 10px;
+            position: relative;
+            -ms-flex: 1 1 0%;
+            flex: 1 1 0%;
+            min-width: 0;
+            margin-bottom: 0;
+        }
+    }
+    &.style_two {
+        .fb_input_label {
+            top: 0;
+        }
+        .fb_input_style {
+            padding: 20px 15px;
+            height: auto;
+        }
+    }
+    .fb_input_label {
+        background-color: #fff;
+        font-size: 13px;
+        text-transform: capitalize;
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 0.25s ease;
+        pointer-events: none;
+        span {
+            color: #ff0000;
+        }
+    }
+    .fb_input_style {
+        padding: 0 15px;
+        font-size: 15px;
+        font-weight: $semi-bold;
+        color: $heading-color;
+        &:focus,
+        &:valid {
+            ~ .fb_input_label {
+                top: 0;
+            }
+        }
+    }
+}
+
+.fb_input_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    overflow: hidden;
+    input[type="text"].fb_input_style,
+    .fb_input_style {
+        flex: 1 1 0%;
+        min-width: 0;
+        height: 52px;
+        border-radius: 5px 0 0 5px;
+    }
+    .fb_btn_fill:not(.toggle) {
+        height: 52px;
+        border-radius: 0 5px 5px 0;
+        margin-left: -1px;
+    }
+}

@@ -1,0 +1,415 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DarkLooks - Dark Mode Switcher For WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-29 12:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: darklooks"
+
+#. Description of the plugin
+msgid "A dark mode switching WordPress plugin with various settings."
+msgstr ""
+
+#: org-addons/Org_Addons.php:117
+msgid "Activate"
+msgstr ""
+
+#: org-addons/Org_Addons.php:122
+msgid "Active"
+msgstr ""
+
+#: admin/controllers/Image_Repeater.php:90
+msgid "Add Group"
+msgstr ""
+
+#: admin/tab-templates/Custom_CSS.php:29
+msgid "Add your custom css."
+msgstr ""
+
+#: admin/Admin_Template.php:31 admin/tab-templates/Advance_Setting.php:17
+msgid "Advance Setting"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:91
+msgid "Background Color"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:115
+msgid "Border Color"
+msgstr ""
+
+#: admin/tab-templates/Switch_Setting.php:61
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/tab-templates/Switch_Setting.php:60
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:28
+msgid "Color Method Type"
+msgstr ""
+
+#: admin/Admin_Template.php:45 admin/tab-templates/Color_Preset.php:17
+msgid "Color Preset"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:33
+msgid "Color Set Method"
+msgstr ""
+
+#: admin/tab-templates/Custom_CSS.php:28
+msgid "CSS"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:42
+msgid "Custom Color"
+msgstr ""
+
+#: admin/Admin_Template.php:66 admin/tab-templates/Custom_CSS.php:17
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/Mode_Switch.php:62
+msgid "Dark"
+msgstr ""
+
+#: admin/controllers/Image_Repeater.php:74
+#: admin/controllers/Image_Repeater.php:83
+msgid "Dark Image Url"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:28
+msgid "Dark Mode Body Font Size"
+msgstr ""
+
+#: admin/tab-templates/Image_Settings.php:44
+msgid "Dark Mode Image Opacity"
+msgstr ""
+
+#: admin/tab-templates/Image_Settings.php:33
+#: admin/tab-templates/Image_Settings.php:38
+msgid "Dark Mode Site Logo"
+msgstr ""
+
+#: admin/Admin.php:44 admin/Admin.php:45
+msgid "DarkLooks"
+msgstr ""
+
+#. Name of the plugin
+msgid "DarkLooks - Dark Mode Switcher For WordPress"
+msgstr ""
+
+#: admin/Admin_Template.php:112
+msgid "darklooks logo"
+msgstr ""
+
+#: admin/Admin.php:52
+msgid "DarkLooks Settings"
+msgstr ""
+
+#: admin/tab-templates/Time_Based.php:29
+msgid "Enable Dark Mode Based On Time"
+msgstr ""
+
+#: admin/tab-templates/General_Setting.php:28
+msgid "Enable Frontend Darkmode"
+msgstr ""
+
+#: admin/tab-templates/General_Setting.php:38
+msgid "Enable Mode Changing Floating Switch"
+msgstr ""
+
+#: admin/tab-templates/General_Setting.php:33
+msgid "Enable OS Dark Mode"
+msgstr ""
+
+#: admin/tab-templates/General_Setting.php:34
+msgid "Enable OS dark mode to support dark mode in OS device."
+msgstr ""
+
+#: admin/tab-templates/General_Setting.php:29
+msgid "Enable the frontend darkmode."
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:60
+msgid "Exclude Elements"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:47
+msgid "Front End Color Preset"
+msgstr ""
+
+#: admin/Admin_Template.php:24 admin/tab-templates/General_Setting.php:17
+msgid "General Setting"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themelooks.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themelooks.org/demo/staraddons"
+msgstr ""
+
+#: admin/Admin_Template.php:52 admin/tab-templates/Image_Settings.php:17
+msgid "Image Settings"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:54
+msgid "Include Elements"
+msgstr ""
+
+#: org-addons/Org_Addons.php:127
+msgid "Install Now"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:32
+msgid "Invert Method"
+msgstr ""
+
+#: inc/Mode_Switch.php:61
+msgid "Light"
+msgstr ""
+
+#: admin/controllers/Image_Repeater.php:73
+#: admin/controllers/Image_Repeater.php:82
+msgid "Light Image Url"
+msgstr ""
+
+#: admin/tab-templates/Image_Settings.php:28
+msgid "Light Mode Site Logo"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:103
+msgid "Link Color"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:109
+msgid "Link Hover Color"
+msgstr ""
+
+#: admin/tab-templates/Switch_Setting.php:27
+msgid "Mode Changing Switch"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:33
+msgid "Mode Changing Switch in Menu"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:34
+msgid "Mode changing switch show in the menu."
+msgstr ""
+
+#: org-addons/Org_Addons.php:132
+msgid "More Details"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:41
+msgid "Preset Color"
+msgstr ""
+
+#. page title
+#: admin/Admin.php:55 admin/Admin.php:56
+msgid "Recommended Plugins"
+msgstr ""
+
+#: admin/controllers/Image_Repeater.php:75
+#: admin/controllers/Image_Repeater.php:84
+msgid "Remove"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:37
+msgid "Select Front End Color Type"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:38
+msgid "Select Menu"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:48
+msgid "Select the front end darkmode color preset."
+msgstr ""
+
+#: admin/tab-templates/Switch_Setting.php:57
+msgid "Select the mode changing switch frontend position."
+msgstr ""
+
+#: admin/tab-templates/Switch_Setting.php:28
+msgid "Select the switche style for the frontend mode changing."
+msgstr ""
+
+#: admin/tab-templates/Time_Based.php:35
+msgid "Set a time to start automatically dark mode on time."
+msgstr ""
+
+#: admin/tab-templates/Time_Based.php:41
+msgid "Set a time to stop display automatically dark mode on time."
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:29
+msgid "Set color method Type."
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:92
+msgid "Set dark mode background color."
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:29
+msgid "Set dark mode body text font size."
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:116
+msgid "Set dark mode border color."
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:38
+msgid "Set dark mode color type."
+msgstr ""
+
+#: admin/tab-templates/Image_Settings.php:45
+msgid "Set dark mode image opacity."
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:104
+msgid "Set dark mode link color."
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:110
+msgid "Set dark mode link hover color."
+msgstr ""
+
+#: admin/tab-templates/Image_Settings.php:34
+#: admin/tab-templates/Image_Settings.php:39
+msgid "Set dark mode site logo."
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:98
+msgid "Set dark mode text color."
+msgstr ""
+
+#: admin/tab-templates/Time_Based.php:40
+msgid "Set End Time"
+msgstr ""
+
+#: admin/tab-templates/Image_Settings.php:29
+msgid "Set light mode site logo."
+msgstr ""
+
+#: admin/tab-templates/Time_Based.php:34
+msgid "Set Start Time"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:50
+msgid "Set switch dark text alternative."
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:45
+msgid "Set switch lite text alternative."
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:39
+msgid "Set the menu location to show mode changing switch."
+msgstr ""
+
+#: admin/Admin.php:52
+msgid "Settings"
+msgstr ""
+
+#: admin/Admin.php:73
+msgid "Settings Saved"
+msgstr ""
+
+#: admin/tab-templates/General_Setting.php:39
+msgid ""
+"Show the mode changing floating switcher button on the frontend for the "
+"users."
+msgstr ""
+
+#: admin/controllers/Color_Picker.php:29 admin/controllers/CSS_Editor.php:29
+#: admin/controllers/Image_Repeater.php:26
+#: admin/controllers/Image_Switcher.php:29
+#: admin/controllers/Media_Upload.php:29
+#: admin/controllers/Multiple_Select.php:26 admin/controllers/Number.php:29
+#: admin/controllers/Radio_Switch.php:29 admin/controllers/Select.php:29
+#: admin/controllers/Slider.php:29 admin/controllers/Switcher.php:29
+#: admin/controllers/Text.php:27 admin/controllers/TextArea.php:29
+msgid "sub title goes here"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:49
+msgid "Switch Dark Text"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:44
+msgid "Switch Lite Text"
+msgstr ""
+
+#: admin/Admin_Template.php:38 admin/tab-templates/Switch_Setting.php:16
+msgid "Switch Setting"
+msgstr ""
+
+#: admin/tab-templates/Switch_Setting.php:56
+msgid "Switcher Position"
+msgstr ""
+
+#: admin/tab-templates/Color_Preset.php:97
+msgid "Text Color"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeLooks"
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:61
+msgid ""
+"This will applied when darkmode to the exclude elements. Add selectors with "
+"comma separated (ids,classes,tags) to apply on darkmode."
+msgstr ""
+
+#: admin/tab-templates/Advance_Setting.php:55
+msgid ""
+"This will applied when darkmode to the included elements. Add selectors with "
+"comma separated (ids,classes,tags) to apply on darkmode."
+msgstr ""
+
+#: admin/Admin_Template.php:59 admin/tab-templates/Time_Based.php:17
+msgid "Time Based"
+msgstr ""
+
+#: admin/controllers/Color_Picker.php:28 admin/controllers/CSS_Editor.php:28
+#: admin/controllers/Image_Repeater.php:25
+#: admin/controllers/Image_Switcher.php:28
+#: admin/controllers/Media_Upload.php:28
+#: admin/controllers/Multiple_Select.php:25 admin/controllers/Number.php:28
+#: admin/controllers/Radio_Switch.php:28 admin/controllers/Select.php:28
+#: admin/controllers/Slider.php:28 admin/controllers/Switcher.php:28
+#: admin/controllers/Text.php:26 admin/controllers/TextArea.php:28
+msgid "Title goes here"
+msgstr ""
+
+#: admin/tab-templates/Switch_Setting.php:63
+msgid "Top Left"
+msgstr ""
+
+#: admin/tab-templates/Switch_Setting.php:62
+msgid "Top Right"
+msgstr ""
+
+#: admin/tab-templates/Time_Based.php:30
+msgid "Turn on the dark mode automatically between the given time range."
+msgstr ""
+
+#: admin/controllers/Media_Upload.php:60
+msgid "Upload Image"
+msgstr ""

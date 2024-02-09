@@ -1,0 +1,14 @@
+/* Section Title */
+.fb__wrapper {
+    .fb_section_title {
+        border-bottom: 1px solid #efefef;
+        margin-bottom: 40px;
+        h3 {
+            font-size: 24px;
+            color: $heading-color;
+            margin: 0 0 15px;
+
+            line-height: 1;
+        }
+    }
+}

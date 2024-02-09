@@ -1,0 +1,56 @@
+/* Cart */
+.fb_cart_table {
+    @extend %table_style;
+    .fb_cart_item_image {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+    th,
+    td {
+        padding: 15px 10px;
+        &:not(:nth-child(2)),
+        &:last-child {
+            text-align: center;
+        }
+    }
+}
+
+.foodbook-checkout {
+    .checkout_coupon {
+        overflow: hidden !important;
+        display: flex !important;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        > p:not(.form-row),
+        .clear {
+            flex: 0 0 100%;
+        }
+        .form-row.form-row-first {
+            width: 1%;
+            flex: 1 1 auto;
+            float: none;
+        }
+        .form-row.form-row-last {
+            float: none;
+            display: inline-block;
+            width: auto;
+        }
+    }
+
+    .checkout_coupon .input-text {
+        @extend %input_style;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .checkout_coupon button {
+        font-size: 14px;
+        padding: 14px 30px;
+    }
+
+    .woocommerce-form-coupon-toggle {
+        display: none;
+    }
+}

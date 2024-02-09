@@ -1,0 +1,40 @@
+/* Card */
+.fb_card {
+    box-shadow: 5px 5px 30px rgba($color: #000000, $alpha: 0.05);
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 10px;
+    @include customMax(575) {
+        padding: 15px;
+    }
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .fb_card_title {
+        margin-bottom: 20px;
+        color: $heading-color;
+        h3 {
+            font-size: 24px !important;
+            line-height: 1;
+            margin: 0;
+            @include customMax(767) {
+                margin-bottom: 10px;
+            }
+        }
+        small {
+            font-size: 16px;
+            font-weight: 600;
+            opacity: 0.3;
+        }
+        h5 {
+            margin: 0;
+            font-size: 16px;
+        }
+    }
+}
+
+@include customMax(575) {
+    .statistics-area .fb_card {
+        padding: 30px;
+    }
+}

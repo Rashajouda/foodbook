@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="icon7" transform="translate(-30 -630)">
+    <circle id="bg" cx="25" cy="25" r="25" transform="translate(30 630)" fill="#f97670" opacity="0.2"/>
+    <path id="icon" d="M17,9.1H7v1.8H17Zm2-6.3H18V1H16V2.8H8V1H6V2.8H5A1.9,1.9,0,0,0,3.01,4.6L3,17.2A1.907,1.907,0,0,0,5,19H19a1.914,1.914,0,0,0,2-1.8V4.6A1.914,1.914,0,0,0,19,2.8Zm0,14.4H5V7.3H19Zm-5-4.5H7v1.8h7Z" transform="translate(43 645)" fill="#f97670"/>
+  </g>
+</svg>

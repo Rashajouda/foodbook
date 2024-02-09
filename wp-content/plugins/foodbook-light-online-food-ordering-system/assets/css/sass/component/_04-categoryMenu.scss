@@ -1,0 +1,30 @@
+/* fb Category Menu */
+.fb_category_list {
+    @extend %list-unstyled;
+    .fb_category_item {
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: $semi-bold;
+        &:nth-of-type(odd) {
+            background-color: rgba($color: $c1, $alpha: 0.07);
+            border-radius: 5px;
+        }
+        .fb_category_quantity {
+            padding-left: 15px;
+            position: relative;
+            color: $c1;
+            &:before {
+                content: "";
+                height: 20px;
+                width: 1px;
+                background-color: rgba($c1, 0.3);
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

@@ -1,0 +1,170 @@
+// Sidebar
+.fb_sidebar {
+    .fb_filter_wrapper {
+        &:not(:last-child) {
+            margin-bottom: 70px;
+        }
+    }
+}
+
+@include customMax(991) {
+    .fb_sidebar {
+        margin-bottom: 70px;
+    }
+}
+
+/* Steps */
+.fb_steps_list {
+    @extend %list-unstyled;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 5px 5px 90px rgba($color: #000000, $alpha: 0.05);
+    @include customMax(575) {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .fb_steps_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        margin: 0 15px;
+        cursor: pointer;
+        font-weight: $bold;
+        text-align: center;
+        color: $heading-color;
+        @include customMax(991) {
+            font-size: 14px;
+            margin: 0 10px;
+        }
+        @include customMax(575) {
+            flex: 0 0 20%;
+            max-width: 20%;
+            word-break: break-word;
+            margin: 0;
+            padding: 5px;
+            font-size: 12px;
+        }
+        @include customMax(479) {
+            font-size: 10px;
+            padding: 3px;
+        }
+        &:not(.active) {
+            color: #b5b5b5;
+            svg {
+                path {
+                    fill: #b5b5b5;
+                    stroke: #b5b5b5;
+                }
+                g {
+                    stroke: #b5b5b5;
+                }
+            }
+        }
+        &:nth-of-type(even) {
+            @include customMax(767) {
+                display: none;
+            }
+        }
+    }
+}
+
+/* Steps Content */
+.fb_steps_content {
+    padding: 45px;
+    @include customMax(1199) {
+        padding: 30px;
+    }
+    @include customMax(575) {
+        padding: 15px;
+    }
+}
+
+/* Product Details */
+.fb_product_details_img img {
+    border-radius: 10px;
+}
+
+.fb_product_details_content {
+    h3 {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0 0 10px;
+    }
+    .fb_product_summary {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .fb_extra_options {
+        margin-bottom: 25px;
+        ul li {
+            display: flex;
+            justify-content: space-between;
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+        }
+        .fb-variable-price {
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+
+.fb_total_price {
+    margin: 20px 0;
+}
+
+/* Share Title */
+.fb_share_btn_title {
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 20px 0;
+    &:after {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        content: "";
+        background-color: #cdcdd2;
+        width: 100%;
+        height: 1px;
+        z-index: -1;
+    }
+    span {
+        display: inline-block;
+        background-color: #fff;
+        padding: 0 5px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #6f6f7f;
+    }
+}
+
+.fb_share_btn_group {
+    .fb_btn_fill {
+        padding: 18px 0;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/* Order Info */
+.fb_order_info {
+    margin-bottom: 30px;
+    p {
+        margin: 0;
+        color: #666;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+    .fb_order_btn_group {
+        margin-bottom: 10px;
+    }
+}

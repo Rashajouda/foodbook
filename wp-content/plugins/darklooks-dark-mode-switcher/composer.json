@@ -1,0 +1,25 @@
+{
+	"config": {
+    	"optimize-autoloader": true
+	},
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Darklooks\\Inc\\" : "./inc",
+			"Darklooks\\Orgaddons\\" : "./org-addons",
+			"Darklooks\\Admin\\" : "./admin",
+			"Darklooks\\Admin\\Inc\\" : "./admin/inc",
+			"Darklooks\\Admin\\Templates\\" : "./admin/inc/tab-templates",
+			"Darklooks\\Admin\\Controllers\\" : "./admin/controllers"
+		},
+		"classmap": [
+			"inc/",
+			"org-addons/",
+			"admin/",
+			"admin/inc",
+			"admin/tab-templates",
+			"admin/controllers"
+		]
+
+	}
+}

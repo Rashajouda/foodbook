@@ -1,0 +1,1365 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+.foodbooklite-wrapper {
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.625;
+    color: #777777;
+    text-align: left;
+    background-color: #ffffff;
+}
+.settings-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 15px;
+    background: #F9F1EC;
+}
+.list-unstyled {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.theme-input-style {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #999999;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    color: #f79101;
+    outline: 0;
+    box-shadow: none;
+    z-index: 1;
+    border: 1px solid #f79101;
+}
+
+.btn:hover {
+    border-color: transparent;
+    color: #fff;
+}
+
+.btn.s-btn:after {
+    height: 100%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.btn:hover:after {
+    height: 100%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.btn:after {
+    position: absolute;
+    background: #f79101;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#f79101),
+        to(#e58701)
+    );
+    background: -webkit-linear-gradient(left, #f79101 0%, #e58701 100%);
+    background: linear-gradient(to right, #f79101 0%, #e58701 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f79101', endColorstr='#e58701',GradientType=1);
+    content: "";
+    width: 100%;
+    height: 80%;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.btn.table-btn {
+    border-radius: 50px;
+    background-color: #f3b728;
+    color: #fff;
+    border-color: transparent;
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-weight: 400;
+    padding: 16px 25px;
+}
+
+.btn.table-btn:after {
+    display: none;
+}
+
+.btn.table-btn:hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.btn.s-btn {
+    color: #fff;
+    border-color: transparent;
+}
+
+.btn.s-btn:after {
+    height: 100%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.btn.s-btn:hover {
+    color: #f79101;
+    border-color: #f79101;
+}
+
+.btn.s-btn:hover:after {
+    height: 80%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.btn-text {
+    text-transform: capitalize;
+}
+
+.btn-text i {
+    margin-left: 5px;
+}
+
+[data-tab] {
+    display: none;
+}
+
+[data-tab].active {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Tab */
+.tab-btn {
+    background-color: #FDFBF9;
+    margin-top: 15px;
+    border: 1px solid #EAE3DE;
+}
+.settings-wrapper .tab-btn {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    max-width: 20%;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+.tab-btn ul li {
+    padding: 20px 25px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@media only screen and (max-width: 991px) {
+    .tab-btn ul li {
+        padding: 20px 28px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tab-btn ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .tab-btn ul li {
+        padding: 10px;
+    }
+}
+
+.tab-btn ul li i {
+    margin-right: 5px;
+}
+
+.tab-btn ul li:after {
+    position: absolute;
+    height: 0px;
+    content: "";
+    left: 0;
+    bottom: 0px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: #f79101;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#f79101),
+        to(#e58701)
+    );
+    background: -webkit-linear-gradient(left, #f79101 0%, #e58701 100%);
+    background: linear-gradient(to right, #f79101 0%, #e58701 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f79101', endColorstr='#e58701',GradientType=1);
+}
+.tab-btn ul li:hover,
+.tab-btn ul li.active {
+    color: #f79101;
+}
+.tab-btn ul li.active:after,
+.tab-btn ul li:hover:after {
+    bottom: 0;
+    height: 100%;
+    width: 3px;
+}
+.tab-btn ul li.active:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 29px solid transparent;
+    border-right: 41px solid #f9f1ec;
+    border-bottom: 35px solid transparent;
+    right: -31px;
+    top: 0;
+}
+.foodbooklite-wrapper .dashboard-content-wrap {
+    max-width: 750px;
+}
+
+.foodbooklite-wrapper .foodbooklite-admin-field {
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    background: #FDFBF9;
+    border-radius: 5px;
+    border: 1px solid #EAE3DE;
+    height: 100px;
+    padding: 20px 25px;
+}
+
+.foodbooklite-wrapper .foodbooklite-admin-field h4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    margin-right: 20px;
+    color: #111111;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.foodbooklite-wrapper .dashboard-content-wrap .foodbooklite-admin-field input {
+    padding: 15px;
+}
+.foodbooklite-wrapper .dashboard-content-wrap .foodbooklite-admin-field input:not(input[type=checkbox]):not(input[type=radio]):not(input[type="button"]),
+.foodbooklite-wrapper .dashboard-content-wrap .foodbooklite-admin-field select {
+    border: 1px solid #8c8f943b;
+    background-color: #fff;
+    color: #2c3338;
+    height: 40px;
+    width: 100%;
+}
+.foodbooklite-wrapper .dashboard-content-wrap .foodbooklite-admin-field input[type=checkbox], 
+.foodbooklite-wrapper .dashboard-content-wrap .foodbooklite-admin-field input[type=radio] {
+    border-color: #8c8f943b;
+}
+.foodbooklite-wrapper .dashboard-content-wrap .foodbooklite-admin-field select {
+    border-color: #8c8f943b;
+    padding: 5px 15px;
+}
+.foodbooklite-wrapper .foodbooklite-admin-field textarea {
+    height: 100px;
+    width: 100%;
+    border: 1px solid #8c8f943b;
+}
+
+.foodbooklite-wrapper .foodbooklite-admin-field .button-primary {
+    margin-left: 10px;
+}
+.foodbooklite-wrapper .foodbooklite-admin-field.admin-field-textarea {
+    height: 150px;
+}
+.foodbooklite-admin-field .i-group{
+    width: 100%;
+}
+.foodbooklite-wrapper .fb-admin-btn,
+.fb-noti-inner,
+.fb_btn_fill {
+    background-color: #000;
+    color: #fecc35;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10.5px 20px;
+    font-weight: 600;
+    border: none;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.foodbooklite-wrapper .fb-admin-btn:hover,
+.fb-noti-inner:hover,
+.fb_btn_fill:hover,
+.foodbooklite-wrapper .fb-admin-btn.active,
+.fb-noti-inner.active,
+.fb_btn_fill.active {
+    color: #fff;
+    background-color: #e58701;
+    box-shadow: none;
+}
+
+.foodbooklite-wrapper .fb-admin-btn.removetime {
+    background-color: #dc3232;
+    color: #fff;
+}
+
+.foodbooklite-wrapper .removebranch,
+.foodbooklite-wrapper .removetime {
+    margin-left: 8px;
+}
+
+.foodbooklite-wrapper .field-wrapper {
+    margin-bottom: 15px;
+}
+
+.foodbooklite-wrapper .field-wrapper .single-field {
+    margin-bottom: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.foodbooklite-wrapper .button-primary {
+    background-color: #000;
+    color: #fecc35;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 13px 20px !important;
+    font-weight: 600;
+    border: none;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    line-height: 1;
+}
+
+.foodbooklite-wrapper .button-primary:hover,
+.foodbooklite-wrapper .button-primary:focus {
+    color: #fff;
+    background-color: #e58701;
+    box-shadow: none;
+}
+
+.foodbooklite-wrapper .submit {
+    margin-top: 30px;
+}
+.foodbooklite-wrapper p.submit .button.button-primary {
+    width: 185px;
+    height: 48px;
+}
+
+.fb-view-order {
+    background-color: #000;
+    color: #fecc35;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-weight: 600;
+    border: none;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    display: inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.fb-view-order:hover {
+    color: #fff;
+    background-color: #e58701;
+    box-shadow: none;
+}
+
+.kitchen-change-tracking h4 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.ui-datepicker {
+    background: #fff;
+}
+
+.ui-datepicker-next {
+    float: right;
+}
+
+.ui-datepicker-title {
+    width: 100%;
+    display: block;
+    margin: 12px 0px;
+    background: #dadada;
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ui-datepicker-calendar a {
+    text-decoration: none;
+    padding: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.ui-datepicker-calendar a:hover {
+    background-color: #ff0000;
+    color: #fff !important;
+}
+
+.ui-datepicker-today {
+    background-color: #ff0000;
+}
+
+.ui-datepicker-today a {
+    color: #fff !important;
+}
+
+.status-active {
+    position: relative;
+}
+
+.status-active:before {
+    content: "✔";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff0000;
+    padding: 2px;
+    border-radius: 14px;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+}
+
+/* Notification */
+.notifi-number-count {
+    text-align: center;
+    margin: 30px 0 40px;
+}
+
+.fb-noti-inner:not(:last-child) {
+    margin-right: 15px;
+}
+
+.fb-noti-inner {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.fb-noti-inner span {
+    background-color: #ff0000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 300;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    font-size: 12px;
+}
+
+.statistics-area {
+    margin: 25px 0px;
+}
+
+.fb-single-Statistics {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: #FDFBF9;
+    padding: 45px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.fb-single-Statistics h2,
+.fb-single-Statistics h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.fb-single-Statistics h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.fb-single-Statistics h3 {
+    font-size: 16px;
+}
+
+.fb-d-none {
+    display: none;
+}
+
+.fb-tab-content {
+    padding: 30px;
+    margin-top: 30px;
+}
+.settings-wrapper .content-wrapper {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
+    max-width: 80%;
+    padding: 40px 0px;
+}
+.settings-wrapper .content-wrapper .tab-content .container {
+    margin-left: 15px;
+}
+.settings-wrapper p.submit {
+    text-align: center;
+}
+.current-date-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.notifi-number-count {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+/* Filter Form */
+.filter-form-inner label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.filter-form-inner .input-group {
+    margin-bottom: 30px;
+}
+
+.filter-form-inner input,
+.filter-form-inner select,
+.filter-form-inner button {
+    height: 40px;
+}
+
+/* Data Table */
+.dataTables_length,
+.dataTables_filter {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+table.dataTable {
+    border-collapse: collapse;
+    font-size: 14px;
+    table-layout: auto;
+}
+
+table.dataTable thead th,
+table.dataTable thead td,
+table.dataTable tfoot th,
+table.dataTable tfoot td {
+    color: #111111;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+table.dataTable > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+}
+
+table.dataTable thead th:last-child,
+table.dataTable tbody td:last-child,
+table.dataTable tfoot th:last-child {
+    text-align: center;
+}
+
+.dataTables_wrapper,
+.fb--modal-inner {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border: 1px solid #ddd !important;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    background-color: rgba(237, 217, 217, 0.16) !important;
+    cursor: not-allowed;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: transparent;
+}
+
+.dataTables_wrapper .dataTables_paginate > span .paginate_button {
+    min-width: 34px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:not(.disabled):hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #f79101 !important;
+    color: #fff !important;
+    border-color: #f79101 !important;
+}
+
+.dataTables_wrapper .dataTables_info {
+    padding-top: 40px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 30px;
+}
+
+/* Date Picker */
+.ui-datepicker {
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.ui-datepicker-next {
+    float: right;
+}
+
+.ui-datepicker-title {
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    background: #dadada;
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    text-decoration: none;
+}
+
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.ui-datepicker-calendar {
+    font-size: 14px;
+    text-align: center;
+}
+
+.ui-datepicker-calendar td {
+    padding: 0;
+}
+
+.ui-datepicker-calendar a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.ui-datepicker-calendar a:hover,
+.ui-datepicker-calendar a.ui-state-active {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+/* Modal */
+.fbPopupModal-opened {
+    overflow: hidden;
+}
+
+.fbPopupModal-opened .fb_popup_modal.open {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fb_popup_modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.fb_modal_wrap {
+    position: relative;
+    width: auto;
+    margin: 8px;
+    margin: 0.5rem;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: calc(100% - (0.5rem * 2));
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1199px) {
+    .fb_modal_wrap {
+        width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .fb_modal_wrap {
+        width: 1200px;
+    }
+}
+
+.fb_modal_wrap .fb_modal_inner {
+    background-color: #fff;
+    position: relative;
+    box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    min-height: 250px;
+}
+
+@media only screen and (min-width: 576px) {
+    .fb_modal_wrap {
+        margin: 50px auto;
+        min-height: calc(100% - (50px * 2));
+    }
+}
+
+.fb_modal_wrap:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fb_modal_wrap .fb_modal {
+    width: 100%;
+    padding: 65px 20px;
+}
+
+.fb_modal_wrap .fb_close_modal {
+    width: 35px;
+    height: 35px;
+    background: #ff0000;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    cursor: pointer;
+}
+
+.fb_modal_content .fb_modal_title {
+    padding: 20px;
+    box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.05);
+}
+
+.fb_modal_content .fb_modal_title h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.fb_modal_content .kitchen-change-tracking {
+    margin-top: 40px;
+}
+
+.fb_modal_content .status-button-area {
+    margin: 20px 0 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.fb_modal_content .status-button-area span {
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0px 8px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #111111;
+    white-space: nowrap;
+}
+
+.fb_modal_content .status-button-area span:hover {
+    background-color: #f79101;
+}
+
+.fb_modal_content .status-button-area span.order-cancel {
+    background: #ff0000;
+}
+
+.fb_modal_content .status-button-area .status-active {
+    position: relative;
+    background-color: #f79101;
+}
+
+.fb_modal_content .status-button-area .status-active:before {
+    content: "✔";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ff0000;
+    padding: 2px;
+    border-radius: 14px;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+}
+
+.fb_modal_content .fb_modal_content_inner {
+    padding: 50px;
+    text-align: left;
+}
+
+.fb_modal_content .fb_modal_content_inner h4 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #111111;
+}
+
+.fb_modal_content .fb_modal_content_inner > h4 {
+    text-align: center;
+}
+
+.fb_modal_content .order-transfer,
+.fb_modal_content .delivery-boy {
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.fb_modal_content .order-transfer > p,
+.fb_modal_content .delivery-boy > p {
+    width: 100%;
+    margin: 10px 0 0;
+    color: #155724;
+}
+
+@media (min-width: 992px) {
+    .fb_modal_content .order-transfer {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+}
+
+.fb_modal_content .order-transfer > p {
+    text-align: right;
+}
+
+.fb_modal_content table {
+    margin: 0;
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fb_modal_content table th,
+.fb_modal_content table td {
+    padding: 10px 18px;
+    vertical-align: middle;
+}
+
+.fb_modal_content table td {
+    color: #111111;
+    font-weight: 500;
+}
+
+.fb_modal_content table ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.fb_modal_content table ul li {
+    margin: 0;
+}
+
+.fb_modal_content table ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.fb_modal_content table ul li .meta-title {
+    color: #777777;
+}
+
+.fb_modal_content table ul li:before {
+    content: "✔";
+}
+
+.fb_modal_content table > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Bootstrap Grid */
+.row {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
+.col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-6 {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+            flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+            flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .col-md-3 {
+        -ms-flex: 0 0 25%;
+        -webkit-box-flex: 0;
+                flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        -webkit-box-flex: 0;
+                flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+                flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+    .col-sm-6 {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+                flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        -ms-flex: 0 0 25%;
+        -webkit-box-flex: 0;
+                flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        -webkit-box-flex: 0;
+                flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        -webkit-box-flex: 0;
+                flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.w-100 {
+    width: 100%;
+}
+
+#wpfooter {
+    position: static;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.fb-billing-address,
+.fb-shipping-address {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.fb-billing-address h4,
+.fb-shipping-address h4 {
+    margin-bottom: 20px;
+}
+
+.fb-billing-address p:last-child,
+.fb-shipping-address p:last-child {
+    margin-bottom: 0;
+}
+
+.wp-core-ui select {
+    height: 40px;
+}
+.inv-header-info {
+    overflow: hidden; 
+}
+.inv-header-info .fb-billing-address, 
+.inv-header-info .fb-shipping-address {
+    box-shadow: none;
+    padding: 0px;
+    margin-top: 0px;
+}
+.fb_order_table table{
+    border: 1.6px solid #dcd7ca;
+    border: 0.1rem solid #dcd7ca;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 25.6px;
+    font-size: 1.6rem;
+    margin: 64px 0;
+    margin: 4rem 0;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.fb_order_table table th,
+.fb_order_table table td{
+    padding: 10px 18px;
+    font-size: 14px;
+    text-align: left;
+}
+.fb_order_table table th,
+.fb_order_table table td {
+    border: 1px solid #ccc;
+}
+.fb_modal_content .fb_modal_title {
+  overflow: hidden; 
+}
+.fb_order_table,
+.inv-header-info {
+  overflow: hidden; 
+}
+.inv-header-info p{
+  margin-bottom: 5px !important;
+  margin-top: 0px !important;
+}
+#admin-branch-order-list .order-status {
+  background: #f79101;
+  color: #fff;
+  padding: 5px 6px;
+  margin-bottom: 2px;
+  display: inline-block;
+  border-radius: 4px;
+}
+#admin-branch-order-list .order-status.pre-order {
+    background-color: #82b440;
+}
+/**** Notification ****/
+
+.fb-admin-order-push-notification {
+  position: fixed;
+  top: 20%;
+  right: 3%;
+}
+.fb-admin-order-push-notification-inner {
+  background: #f79101; 
+  z-index: 1000000;
+  padding: 13px 20px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  display: none;
+  box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.25);
+}
+.fb-admin-order-push-notification p{
+  margin: 0px;
+}
+
+/**
+ * location input css
+ */
+#infowindow-content {
+    padding: 15px 0px;
+}
+.pac-logo:after {
+  background:inherit;
+}
+.fbl-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fbl-overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.4;
+    z-index: -1;
+}
+.fbl-promo-inner{
+    background: #f9f1ec;
+    padding: 25px;
+    text-align: center;
+    border-radius: 4px;
+}
+.fbl-promo-inner h3{
+    font-size: 24px;
+    margin: 0 0 30px 0;
+    font-weight: 700;
+    color: #343434;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.button.button-primary.fbl-buy {
+    background-color: #000;
+    color: #fecc35;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-weight: 600;
+    border: none;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fbl-position-relative {
+    position: relative;
+}
+.pro-label {
+    margin-left: 5px;
+    color: #e41a1a;
+    font-weight: 700;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>burger &#8211; Rasha</title>
+	<atom:link href="https://rashajouda.github.io/foodbook/product-category/burger/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rashajouda.github.io/foodbook</link>
+	<description></description>
+	<lastBuildDate>Fri, 09 Feb 2024 11:20:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+	<item>
+		<title>Burger</title>
+		<link>https://rashajouda.github.io/foodbook/product/burger/</link>
+					<comments>https://rashajouda.github.io/foodbook/product/burger/#respond</comments>
+		
+		<dc:creator><![CDATA[rashajouda]]></dc:creator>
+		<pubDate>Fri, 09 Feb 2024 11:20:06 +0000</pubDate>
+				<guid isPermaLink="false">https://rashajouda.github.io/foodbook/?post_type=product#038;p=25</guid>
+
+					<description><![CDATA[ce the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only]]></description>
+										<content:encoded><![CDATA[<p>ce the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popul</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://rashajouda.github.io/foodbook/product/burger/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

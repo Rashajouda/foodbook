@@ -1,0 +1,74 @@
+/* Thank You */
+.foodbook-checkout {
+    .fb_thankyou_content {
+        text-align: center;
+        margin-bottom: 60px;
+        img {
+            display: inline;
+        }
+        h2 {
+            font-size: 48px;
+            font-weight: $semi-bold;
+            margin: 0;
+            color: $heading-color;
+            line-height: calc(24 / 14);
+            @include customMax(575) {
+                font-size: 30px;
+            }
+        }
+        p {
+            margin: 0 auto;
+            font-size: 16px;
+            max-width: 730px;
+            font-weight: 600;
+            color: #777;
+            line-height: calc(24 / 14);
+        }
+    }
+
+    .woocommerce-thankyou-order-details {
+        margin-top: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 5px;
+        li {
+            word-break: break-word;
+            strong {
+                color: $heading-color;
+            }
+            &:not(:last-child) {
+                margin-bottom: 7px;
+            }
+        }
+    }
+
+    .select2-container .select2-selection--single,
+    .select2-container--default
+        .select2-selection--single
+        .select2-selection__arrow {
+        height: 43px;
+    }
+
+    .select2-container .select2-selection--single {
+        border: 1px solid #ddd;
+    }
+
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        line-height: 43px;
+    }
+
+    .select2-container--focus .select2-selection {
+        border: 1px solid rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* Invitation Form */
+.fb_invitation_form {
+    input[type="text"].fb_input_style,
+    .fb_btn_fill {
+        height: 60px;
+    }
+    .fb_input_style {
+        margin-bottom: 20px;
+    }
+}
