@@ -3301,7 +3301,7 @@ svg path {
   top: 0;
   position: absolute;
   content: "";
-  background-image: url(../img/shape.svg);
+  background-image: url(https://rashajouda.github.io/foodbook/wp-content/themes/foodbooktheme/assets/img/shape.svg);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;

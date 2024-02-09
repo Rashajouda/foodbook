@@ -92,7 +92,7 @@
     transition: .4s;
     border-radius: 50%;
     z-index: 1;
-    background-image: url('../img/icons/dark.svg');
+    background-image: url('https://rashajouda.github.io/foodbook/wp-content/plugins/darklooks-dark-mode-switcher/assets/img/icons/dark.svg');
     background-repeat: no-repeat;
 }
   
@@ -102,7 +102,7 @@
   
 .dl-switch input:checked + .dl-slider:before {
     background-color: #FB9426;
-    background-image: url('../img/icons/light.svg');
+    background-image: url('https://rashajouda.github.io/foodbook/wp-content/plugins/darklooks-dark-mode-switcher/assets/img/icons/light.svg');
     background-repeat: no-repeat;
 }
   
@@ -160,7 +160,7 @@
     width: 26px;
     left: 2px;
     top: 2px;
-    background-image: url(icons/dark3.svg);
+    background-image: url(https://rashajouda.github.io/foodbook/wp-content/plugins/darklooks-dark-mode-switcher/assets/css/icons/dark3.svg);
 }
 
 .dl-switch.style3 .dl-light {
@@ -179,7 +179,7 @@
     background-color: #FB9426;
 }
 .dl-switch.style3 input:checked + .dl-slider:before {
-    background-image: url(icons/light3.svg);
+    background-image: url(https://rashajouda.github.io/foodbook/wp-content/plugins/darklooks-dark-mode-switcher/assets/css/icons/light3.svg);
 }
   
 .dl-switch.style3 input:checked + .dl-slider:before {
@@ -228,7 +228,7 @@
 .dl-switch.style4 .dl-slider:before {
     width: 14px;
     height: 14px;
-    background-image: url(icons/dark4.svg);
+    background-image: url(https://rashajouda.github.io/foodbook/wp-content/plugins/darklooks-dark-mode-switcher/assets/css/icons/dark4.svg);
     background-repeat: no-repeat;
     background-color: transparent;
     right: 8px;
@@ -242,7 +242,7 @@
 }
   
 .dl-switch.style4 input:checked + .dl-slider:before {
-    background-image: url(icons/light4.svg);
+    background-image: url(https://rashajouda.github.io/foodbook/wp-content/plugins/darklooks-dark-mode-switcher/assets/css/icons/light4.svg);
     right: auto;
     left: 8px;
     transform: translate(0, -50%);
